@@ -4,6 +4,12 @@ model_name="mistralai/Mistral-7B-v0.1"
 model = MistralForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
+# prompt = "What is the capital of Australia?"
+# prompt_template=f'''{prompt}
+# '''
+
+# print("\n\n*** Generate:")
+
 prompt = "Act like a potion seller in the medieval times in a video game."
 inputs = tokenizer(prompt, return_tensors="pt")
 
