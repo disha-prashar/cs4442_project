@@ -5,8 +5,10 @@ from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_pef
 import os, torch, wandb, platform, warnings
 
 # Load Dataset
-dataset = load_dataset("amaydle/npc-dialogue", split="train")
-# dataset["Response"][0]
+train_dataset = load_dataset("amaydle/npc-dialogue", split="train")
+test_dataset = load_dataset("amaydle/npc-dialogue", split="test")
+print(train_dataset)
+print(test_dataset)
 
 # Load Base Model (Mistral 7B)
 model_name="mistralai/Mistral-7B-v0.1"
@@ -22,10 +24,10 @@ model.config.pretraining_tp = 1
 model.gradient_checkpointing_enable()
 
 # Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-tokenizer.pad_token = tokenizer.eos_token
+tokenizer = AutoTokenizer.from_pretrained(model_name, src_lang="en")
 tokenizer.add_eos_token = True
 tokenizer.add_bos_token, tokenizer.add_eos_token
+tokenizer.pad_token = tokenizer.eos_token
 tokenizer.padding_side = "right"
 
 # Set up Model Training Tracking and Visualization
@@ -67,7 +69,7 @@ training_arguments = TrainingArguments(
 # Setting sft parameters
 trainer = SFTTrainer(
     model=model,
-    train_dataset=dataset,
+    train_dataset=train_dataset,
     peft_config=peft_config,
     max_seq_length=None,
     dataset_text_field="Biography",
@@ -108,17 +110,11 @@ torch.cuda.empty_cache()
 
 
 
-
-
 # # Format dataset
 # dataset = dataset.map(
 #     chatml_format,
 #     #remove_columns=original_columns
 # )
-
-
-
-
 
 
 
