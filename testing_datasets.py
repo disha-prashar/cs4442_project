@@ -1,4 +1,4 @@
-from transformers import pipeline, AutoTokenizer, MistralForCausalLM, BitsAndBytesConfig, TrainingArguments, TextStreamer, DataCollatorWithPadding, Trainer
+from transformers import pipeline, AutoModel, AutoModelForSequenceClassification, AutoTokenizer, MistralForCausalLM, BitsAndBytesConfig, TrainingArguments, TextStreamer, DataCollatorWithPadding, Trainer
 from datasets import load_dataset
 from trl import SFTTrainer
 from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model
@@ -13,6 +13,8 @@ raw_datasets = load_dataset("amaydle/npc-dialogue") # Type is DatasetDict
 # train_dataset = load_dataset("amaydle/npc-dialogue", split="train")
 # test_dataset = load_dataset("amaydle/npc-dialogue", split="test")
 
+local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/local_model"
+
 # Load Base Model (Mistral 7B)
 model_name="mistralai/Mistral-7B-v0.1"
 bnb_config = BitsAndBytesConfig(
@@ -21,13 +23,15 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_compute_dtype= torch.bfloat16,
     bnb_4bit_use_double_quant= False,
 )
-model = MistralForCausalLM.from_pretrained(model_name, quantization_config=bnb_config, device_map={"": 0})
+# model = MistralForCausalLM.from_pretrained(model_name, quantization_config=bnb_config, device_map={"": 0})
+model = AutoModelForSequenceClassification.from_pretrained(local_model_directory, quantization_config=bnb_config, device_map={"": 0})
 model.config.use_cache = False # silence the warnings. Please re-enable for inference!
 model.config.pretraining_tp = 1
 model.gradient_checkpointing_enable()
 
 # Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False, src_lang="en")
+# tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False, src_lang="en")
+tokenizer = AutoTokenizer.from_pretrained(local_model_directory, use_fast=False, src_lang="en")
 tokenizer.add_eos_token = True
 tokenizer.add_bos_token, tokenizer.add_eos_token
 tokenizer.pad_token = tokenizer.eos_token
@@ -36,7 +40,7 @@ tokenizer.padding_side = "right"
 
 def tokenize_function(data):
     return tokenizer(
-        data["Name"], data["Biography"], data["Query"], data["Response"], data["Emotion"], padding = "max_length", truncation=True, max_length=1024
+        data["Name"], data["Biography"], data["Query"], data["Response"], data["Emotion"], padding = "max_length", max_length=1024, truncation=True
     )
 
 tokenized_datasets = raw_datasets.map(tokenize_function, batched=True)
@@ -59,21 +63,22 @@ peft_config = LoraConfig(
         target_modules=["q_proj", "k_proj", "v_proj", "o_proj","gate_proj"]
     )
 model = get_peft_model(model, peft_config)
+model.config.pad_token_id = model.config.eos_token_id
 
 metric = evaluate.load("accuracy")
 
-def compute_metrics(eval_pred):
-    logits, labels = eval_pred
-    predictions = np.argmax(logits, axis=-1)
-    return metric.compute(predictions=predictions, references=labels)
+# def compute_metrics(eval_pred):
+#     logits, labels = eval_pred
+#     predictions = np.argmax(logits, axis=-1)
+#     return metric.compute(predictions=predictions, references=labels)
 
 # Training Arguments
 # Hyperparameters should be adjusted based on the hardware you using
 training_arguments = TrainingArguments(
     output_dir= "./results",
     num_train_epochs=8,
-    per_device_train_batch_size=16,
-    # per_device_eval_batch_size=16,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
     gradient_accumulation_steps= 2,
     gradient_checkpointing=True,
     # optim = "paged_adamw_8bit",
@@ -110,11 +115,10 @@ model.resize_token_embeddings(len(tokenizer))
 
 trainer.train()
 
-
-# # Save the fine-tuned model
-# local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/local_model"
+# Save the fine-tuned model
+trainer.save_model(local_model_directory)
 # trainer.model.save_pretrained(local_model_directory)
-# wandb.finish()
+wandb.finish()
 # model.config.use_cache = True
 # model.eval()
 
