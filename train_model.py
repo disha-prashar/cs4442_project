@@ -1,4 +1,4 @@
-from transformers import pipeline, AutoTokenizer, MistralForCausalLM, BitsAndBytesConfig, TrainingArguments, TextStreamer
+from transformers import pipeline, AutoTokenizer, MistralForCausalLM, BitsAndBytesConfig, TrainingArguments, TextStreamer, AutoModelForCausalLM
 from datasets import load_dataset
 from trl import SFTTrainer
 from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model
@@ -10,6 +10,8 @@ test_dataset = load_dataset("amaydle/npc-dialogue", split="test")
 print(train_dataset)
 print(test_dataset)
 
+local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/downloaded_model/Mistral-7B-Instruct-v0.1"
+
 # Load Base Model (Mistral 7B)
 model_name="mistralai/Mistral-7B-v0.1"
 bnb_config = BitsAndBytesConfig(
@@ -18,13 +20,14 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_compute_dtype= torch.bfloat16,
     bnb_4bit_use_double_quant= False,
 )
-model = MistralForCausalLM.from_pretrained(model_name, quantization_config=bnb_config, device_map={"": 0}) # .to('cuda')
+# model = MistralForCausalLM.from_pretrained(local_model_directory, quantization_config=bnb_config, device_map={"": 0}) # .to('cuda')
+model = AutoModelForCausalLM.from_pretrained(local_model_directory, local_files_only = True, quantization_config=bnb_config, device_map={"": 0})
 model.config.use_cache = False # silence the warnings. Please re-enable for inference!
 model.config.pretraining_tp = 1
 model.gradient_checkpointing_enable()
 
 # Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_name, src_lang="en")
+tokenizer = AutoTokenizer.from_pretrained(local_model_directory, src_lang="en")
 tokenizer.add_eos_token = True
 tokenizer.add_bos_token, tokenizer.add_eos_token
 tokenizer.pad_token = tokenizer.eos_token
@@ -66,23 +69,33 @@ training_arguments = TrainingArguments(
     lr_scheduler_type= "constant",
     report_to="wandb"
 )
+
+def formatting_prompts_func(example):
+    output_texts = []
+    for i in range(len(example['Name'])):
+        text = f"### Name: {example['Name'][i]}\n ### Biography: {example['Biography'][i]}\n ### Query: {example['Query'][i]}\n ### Response: {example['Response'][i]}\n ### Emotion: {example['Emotion'][i]}"
+        output_texts.append(text)
+    return output_texts
+
 # Setting sft parameters
 trainer = SFTTrainer(
     model=model,
     train_dataset=train_dataset,
     peft_config=peft_config,
-    max_seq_length=None,
-    dataset_text_field="Biography",
+    max_seq_length=1024,
+    # dataset_text_field="Biography",
     tokenizer=tokenizer,
     args=training_arguments,
-    packing= False,
+    formatting_func=formatting_prompts_func,
+    # packing= True,
 )
 
 trainer.train()
 
 # Save the fine-tuned model
-local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/local_model_2"
-trainer.model.save_pretrained(local_model_directory)
+# save_directory = "C:/Users/NomadXR/Desktop/mistral_4470/local_model_2"
+trainer.save_model(local_model_directory)
+# trainer.model.save_pretrained(save_directory)
 wandb.finish()
 model.config.use_cache = True
 model.eval()
