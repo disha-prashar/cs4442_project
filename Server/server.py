@@ -6,26 +6,31 @@
 
 import UdpComms as U
 import time
+from test_trained_model import model 
 
 # Create UDP socket to use for sending (and receiving)
 sock = U.UdpComms(udpIP="127.0.0.1", portTX=8000, portRX=8001, enableRX=True, suppressWarnings=True)
 print("Python Server started")
 
 # for testing purposes
+mymodel = model
 
 while True:
     data = sock.ReadReceivedData() # read data
 
     if data != None: # if NEW data has been received since last ReadReceivedData function call
-        print(data) # print new received data
+        # print(data) # print new received data
         
-        if data == "Hey":
-            sock.SendData("Hello I am a Potion seller") # Send this string to other application
+        # if data == "Hey":
+        #     sock.SendData("Hello I am a Potion seller") # Send this string to other application
 
-        elif data == "test":
-            sock.SendData("I sell many things!")
+        # elif data == "test":
+        #     sock.SendData("I sell many things!")
         
-        else:
-            sock.SendData("Is there anything else you need?")
+        # else:
+        #     sock.SendData("Is there anything else you need?")
+        myresponse = model.chat_with_model(data)
+        print(f"\n\n This is the response from the model:\n{myresponse}")
+        sock.SendData(myresponse)
 
     time.sleep(1)

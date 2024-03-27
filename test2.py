@@ -1,17 +1,14 @@
-from transformers import pipeline, AutoTokenizer, MistralForCausalLM
+from transformers import AutoTokenizer, MistralForCausalLM
 
 model_name="mistralai/Mistral-7B-v0.1"
 model = MistralForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# prompt = "What is the capital of Australia?"
-# prompt_template=f'''{prompt}
-# '''
-
-# print("\n\n*** Generate:")
-
 prompt = "Act like a potion seller in the medieval times in a video game."
-inputs = tokenizer(prompt, return_tensors="pt")
+prompt_template=f'''{prompt}'''
+inputs = tokenizer(prompt_template, return_tensors="pt")
+
+print("\n\n*** Generate:")
 
 generate_ids = model.generate(inputs.input_ids, max_length=30)
 print(tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0])
