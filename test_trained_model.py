@@ -5,18 +5,23 @@ def chat_with_model():
     model = AutoModelForCausalLM.from_pretrained(local_model_directory) #.to('cuda') #(model_name, device_map="auto", trust_remote_code=False,revision="main")
     tokenizer = AutoTokenizer.from_pretrained(local_model_directory, use_fast=True, src_lang="en")
     
+    conversation_history = ""
+
     while True:
         prompt = input("\nEnter prompt: ") #"What's the capital of Australia?"  "Who is Scott McCall?" "Act like a potion seller." "Can you tell me about your transformation?"
         # prompt_template=f'''{prompt}'''
+        conversation_history += " " + prompt
 
-        if input == "exit":
+        if prompt.lower() == "exit":
             break
         
         input_ids = tokenizer.encode(prompt, return_tensors="pt") #.input_ids.cuda()
 
         print("\n*** Generate:\n")
-        generate_ids = model.generate(input_ids, max_length=50, num_return_sequences=1, temperature=0.9, do_sample=True) #top_p=0.95, top_k=40, max_new_tokens=512
-        print(tokenizer.decode(generate_ids[0], skip_special_tokens=True, clean_up_tokenization_spaces=False))
+        generate_ids = model.generate(input_ids, max_length=200, num_return_sequences=1, temperature=0.9, do_sample=True) #top_p=0.95, top_k=40, max_new_tokens=512
+        bot_response = tokenizer.decode(generate_ids[0], skip_special_tokens=True, clean_up_tokenization_spaces=False)
+        conversation_history += " " + bot_response
+        print(bot_response)
 
 if __name__ == "__main__":
     chat_with_model()
