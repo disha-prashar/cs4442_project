@@ -6,27 +6,8 @@ from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_pef
 import os, torch, wandb, platform, warnings
 from torch.utils.data import Dataset, DataLoader
 
-# Define a custom dataset class
-class MyDataset(Dataset):
-    def __init__(self, tokenizer, examples):
-        self.examples = examples
-        self.tokenizer = tokenizer
-        # Set the sep_token explicitly
-        if tokenizer.sep_token is None:
-            self.tokenizer.sep_token = "[SEP]"
-
-    def __len__(self):
-        return len(self.examples)
-    
-    def __getitem__(self, idx):
-        example = self.examples[idx]
-        inputs = self.tokenizer(example["Title"] + self.tokenizer.sep_token + example["Objective"], padding="max_length", truncation=True, return_tensors="pt")
-        labels = self.tokenizer(example["Text"], padding="max_length", truncation=True, return_tensors="pt")
-        return inputs, labels
-
 # Load Dataset
 train_dataset = load_dataset("dprashar/npc_dialogue_rpg_quests", split="train")
-print(type(train_dataset["Title"]))
 
 # Load Base Model (Zephyr 7B)
 local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/zephyr_model"
@@ -47,14 +28,12 @@ tokenizer.add_eos_token = True
 tokenizer.add_bos_token, tokenizer.add_eos_token
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.padding_side = "right"
-tokenizer.sep_token = "<SEP>"
+# tokenizer.sep_token = "<SEP>"
 
-tokenized_dataset = dict.fromkeys(train_dataset["Title"])
-for item in train_dataset:
-    tokenized_dataset[item["Title"]] = "Title: " + item["Title"] + " Objective: " + item["Objective"] + " Text: " + item["Text"]
+encoded_dataset = train_dataset.map(lambda e: tokenizer(e['Title'], truncation=True, padding=True), batched=True)
+encoded_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask'])
+# dataloader = torch.utils.data.DataLoader(encoded_dataset, batch_size=32)
 
-dataset = Dataset.from_dict(tokenized_dataset)
-print(dataset)
 # Set up Model Training Tracking and Visualization
 wandb.login(key = "ea369874684d6636d5a86e352b7968d17436787b")
 run = wandb.init(project='Fine tuning zephyr 7B', job_type="training", anonymous="allow")
@@ -108,31 +87,57 @@ training_arguments = TrainingArguments(
 #     model=model,
 #     args=training_arguments,
 #     # data_collator=data_collator,
-#     train_dataset=train_dataset["train"],
+#     train_dataset=encoded_dataset,
 # )
+
+def formatting_prompts_func(example):
+    output_texts = []
+    for i in range(len(example["Title"])):
+       text = f"### Title: {example['Title'][i]}\n ### Objective: {example['Objective'][i]}\n ### Text: {example['Text'][i]}\n"
+       output_texts.append(text)
+    return output_texts
 
 # Setting sft parameters
 trainer = SFTTrainer(
     model=model,
-    train_dataset=dataset,
+    train_dataset=encoded_dataset,
     peft_config=peft_config,
     max_seq_length=1024,
     # dataset_text_field="Title",
     tokenizer=tokenizer,
     args=training_arguments,
-    # formatting_func=formatting_prompts_func,
-    # packing= True,
+    formatting_func=formatting_prompts_func,
+    # packing=True,
 )
 
 # Fine-tune the model
-trainer.train(tokenized_dataset["train"])
+trainer.train()
 
-# # Save the fine-tuned model
-# trainer.save_model(local_model_directory)
-# wandb.finish()
-# model.config.use_cache = True
-# model.eval()
+# Save the fine-tuned model
+trainer.save_model(local_model_directory)
+wandb.finish()
+model.config.use_cache = True
+model.eval()
 
+'''
+# Define a custom dataset class
+class MyDataset(Dataset):
+    def __init__(self, tokenizer, examples):
+        self.examples = examples
+        self.tokenizer = tokenizer
+        # Set the sep_token explicitly
+        if tokenizer.sep_token is None:
+            self.tokenizer.sep_token = "[SEP]"
+
+    def __len__(self):
+        return len(self.examples)
+    
+    def __getitem__(self, idx):
+        example = self.examples[idx]
+        inputs = self.tokenizer(example["Title"] + self.tokenizer.sep_token + example["Objective"], padding="max_length", truncation=True, return_tensors="pt")
+        labels = self.tokenizer(example["Text"], padding="max_length", truncation=True, return_tensors="pt")
+        return inputs, labels
+'''
 
 
 # # # Collate function to prepare batch inputs and labels
