@@ -1,3 +1,6 @@
+'''
+This program was used to test the accuracy of the fine-tuned Zephyr model.
+'''
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 def chat_with_model():

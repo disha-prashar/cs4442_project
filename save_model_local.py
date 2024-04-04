@@ -1,3 +1,7 @@
+'''
+This program was used to download and store a model locally from the HuggingFace cloud.
+Caution: it will overwrite the current contents of the directory specified by local_model_directory and remove all fine-tuning!
+'''
 from transformers import AutoTokenizer, AutoModel, MistralForCausalLM, BitsAndBytesConfig, AutoModelForCausalLM
 import os, torch
 from peft import LoraConfig, PeftModel, prepare_model_for_kbit_training, get_peft_model
@@ -17,7 +21,6 @@ model.gradient_checkpointing_enable()
 
 # Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False, src_lang="en")
-# tokenizer = AutoTokenizer.from_pretrained(local_model_directory, use_fast=False, src_lang="en")
 tokenizer.add_eos_token = True
 tokenizer.add_bos_token, tokenizer.add_eos_token
 tokenizer.pad_token = tokenizer.eos_token
@@ -36,7 +39,7 @@ model = get_peft_model(model, peft_config)
 
 model.resize_token_embeddings(len(tokenizer))
 
-local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/local_model"
+local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/mistral_model"
 model.save_pretrained(local_model_directory)
 tokenizer.save_pretrained(local_model_directory)
 
@@ -48,7 +51,7 @@ tokenizer.save_pretrained(local_model_directory)
 # model = AutoModel.from_pretrained(model_name)
 # tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/local_model"
+# local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/mistral_model"
 # model.save_pretrained(local_model_directory)
 # tokenizer.save_pretrained(local_model_directory)
 
