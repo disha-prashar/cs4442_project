@@ -10,7 +10,7 @@ The following steps were used to fine-tune Zephyr 7B
 2. Use fine_tuning_data/convert_txt_to_json.py to preprocess the data found [here](https://jakub.thebias.nl/GPT2_WOWHead_dataset.txt) and convert it to a JSON file.
 3. Upload the JSON file and create a dataset on the HuggingFace cloud [here](https://huggingface.co/datasets/dprashar/npc_dialogue_rpg_quests) which can be used to fine-tune Zephyr.
 4. Use train_zephyr.py to fine-tune the downloaded Zephyr model on the dataset uploaded to HuggingFace.
-5. Test the model's accuracy using test_trained_model.py
+5. Test the model's accuracy using test_trained_model.py.
 
 ### Directories and Their Contents
 archive: files in this directory were used for testing and experimentation
