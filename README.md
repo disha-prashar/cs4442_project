@@ -30,8 +30,10 @@ To deactivate:
 deactivate
 ```
 
-## Install dependencies
+### Install dependencies
 ```
 pip install transformers datasets
 pip install -U optimum
 ```
+
+## Python Server
