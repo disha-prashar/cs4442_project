@@ -9,15 +9,15 @@ The following steps were used to fine-tune Zephyr 7B
 1. Use save_model_local.py to download and save the base Zephyr 7B model locally.
 2. Use fine_tuning_data/convert_txt_to_json.py to preprocess the data found [here](https://jakub.thebias.nl/GPT2_WOWHead_dataset.txt) and convert it to a JSON file.
 3. Upload the JSON file and create a dataset on the HuggingFace cloud [here](https://huggingface.co/datasets/dprashar/npc_dialogue_rpg_quests) which can be used to fine-tune Zephyr.
-4. 
-
+4. Use train_zephyr.py to fine-tune the downloaded Zephyr model on the dataset uploaded to HuggingFace.
+5. Test the model's accuracy using test_trained_model.py
 
 ### Directories and Their Contents
 archive: files in this directory were used for testing and experimentation
 
 downloaded_model (only on computer in directory "C:\Users\NomadXR\Desktop\mistral_4470"): contains the Mistral 7B model downloaded straight from their [Github](https://github.com/mistralai)
 
-fine_tuning_data:
+fine_tuning_data: contains files that were used to create the dataset to fine-tune the model
 
 llama.cpp (only on computer in directory "C:\Users\NomadXR\Desktop\mistral_4470"): external tool cloned from [GitHub](https://github.com/ggerganov/llama.cpp/discussions/2948) used to convert the final LLM to a gguf file to be used with Unity engine
 

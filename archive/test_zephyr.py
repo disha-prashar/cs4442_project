@@ -1,3 +1,6 @@
+'''
+This program was used to test the accuracy of the fine-tuned Zephyr model.
+'''
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
