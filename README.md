@@ -5,6 +5,7 @@ All testing and fine-tuning should be done in the virtual environment. To access
 
 ## Install dependencies
 pip install transformers datasets
+
 pip install -U optimum
 
 ## Command to activate virtual environment in terminal
