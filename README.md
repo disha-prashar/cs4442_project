@@ -6,7 +6,7 @@ This repository contains code that was used to fine-tune the Zephyr 7B.
 
 ### Install dependencies
 ```
-pip install transformers datasets peft sentencepiece protobuf
+pip install transformers datasets peft sentencepiece protobuf trl wandb
 pip install -U optimum
 ```
 
