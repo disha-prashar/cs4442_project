@@ -21,8 +21,6 @@ The following steps were used to fine-tune Zephyr 7B
 ### Directories and Their Contents
 archive: files in this directory were used for testing and experimentation
 
-downloaded_model: contains the Mistral 7B model downloaded straight from their [Github](https://github.com/mistralai)
-
 fine_tuning_data: contains files that were used to create the dataset to fine-tune the model
 
 All testing and fine-tuning should be done in the virtual environment. To activate the virtual environment in the terminal, use the following command
