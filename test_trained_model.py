@@ -4,7 +4,7 @@ This program was used to test the accuracy of the fine-tuned Zephyr model.
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 def chat_with_model():
-    local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/zephyr_model"
+    local_model_directory = "./local_model"
     model = AutoModelForCausalLM.from_pretrained(local_model_directory) #.to('cuda') #(model_name, device_map="auto", trust_remote_code=False,revision="main")
     tokenizer = AutoTokenizer.from_pretrained(local_model_directory, use_fast=True, src_lang="en")
     
@@ -21,7 +21,7 @@ def chat_with_model():
         input_ids = tokenizer.encode(prompt, return_tensors="pt") #.input_ids.cuda()
 
         print("\n*** Generate:\n")
-        generate_ids = model.generate(input_ids, max_length=200, num_return_sequences=1, temperature=0.9, do_sample=True) #top_p=0.95, top_k=40, max_new_tokens=512
+        generate_ids = model.generate(input_ids, max_length=50, num_return_sequences=1, temperature=0.7, do_sample=True) #top_p=0.95, top_k=40, max_new_tokens=512
         bot_response = tokenizer.decode(generate_ids[0], skip_special_tokens=True, clean_up_tokenization_spaces=False)
         conversation_history += " " + bot_response
         print(bot_response)
