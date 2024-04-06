@@ -2,7 +2,7 @@
 This file was used for initial exploration and experimentation with an AI model.
 '''
 
-from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification, AutoModelForCausalLM
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM, GPT2LMHeadModel, GPT2Tokenizer
 
 # classifer = pipeline("zero-shot-classification")
 # res = classifer("This is a course about Python list comprehension",
@@ -11,9 +11,9 @@ from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassifica
 
 # print(pipeline('text-generation', 'mistralai/Mistral-7B-v0.1'))
 
-model_name="mistralai/Mistral-7B-v0.1"
-model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", trust_remote_code=False,revision="main")
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
+model_name="openai-community/gpt2"
+model = GPT2LMHeadModel.from_pretrained(model_name).to('cuda') #, device_map="auto", trust_remote_code=False,revision="main")
+tokenizer = GPT2Tokenizer.from_pretrained(model_name) #, use_fast=True
 
 prompt = "What is the capital of Australia?"
 prompt_template=f'''{prompt}
@@ -22,7 +22,7 @@ prompt_template=f'''{prompt}
 print("\n\n*** Generate:")
 
 input_ids = tokenizer(prompt_template, return_tensors='pt').input_ids.cuda()
-output = model.generate(inputs=input_ids, temperature=0.7, do_sample=True, top_p=0.95, top_k=40, max_new_tokens=512)
+output = model.generate(inputs=input_ids, temperature=0.5, do_sample=True, top_p=0.95, top_k=40, max_new_tokens=20)
 print(tokenizer.decode(output[0]))
 
 # classifer = pipeline("sentiment-analysis", model=model)

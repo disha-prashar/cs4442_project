@@ -6,13 +6,15 @@ This repository contains code that was used to fine-tune the Zephyr 7B.
 
 ### Install dependencies for visualizations
 ```
-pip install pandas matplotlib nltk wordcloud textblob seaborn
+python -m pip install pandas matplotlib nltk wordcloud textblob seabor
+python -m pip install -U scikit-learn
 ```
 
 ### Install dependencies for fine tuning
 ```
-pip install transformers datasets peft sentencepiece protobuf trl wandb
-pip install -U optimum
+python -m pip install transformers datasets peft sentencepiece protobuf trl wandb
+python -m pip install -U optimum
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
 ## Fine-Tuning Zephyr 7B Model (Fine-tuned from Mistral 7B) 

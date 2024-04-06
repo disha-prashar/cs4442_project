@@ -31,23 +31,26 @@ for sample in data:
 # Randomly sample a subset of the data for visualization
 data_subset = random.sample(data, min(100, len(data)))
 
-# Function to visualize inference results
-def visualize_results(data):
+# Function to visualize inference results and save them to a file
+def visualize_results(data, output_file):
     correct_predictions = 0
     incorrect_predictions = 0
-    for sample, true_label in zip(data, true_labels):
-        text = ' '.join([sample['Title'], sample['Objective'], sample['Text']])  # Combine text features
-        predicted_label = assign_pseudo_labels(text)
-        if predicted_label == true_label:
-            correct_predictions += 1
-        else:
-            incorrect_predictions += 1
-            print("Text:", text)
-            print("True Label:", true_label)
-            print("Predicted Label:", predicted_label)
-            print()
+    with open(output_file, 'w') as outfile:
+        for sample, true_label in zip(data, true_labels):
+            text = ' '.join([sample['Title'], sample['Objective'], sample['Text']])  # Combine text features
+            predicted_label = assign_pseudo_labels(text)
+            if predicted_label == true_label:
+                correct_predictions += 1
+            else:
+                incorrect_predictions += 1
+                result = f"Text: {text}\nTrue Label: {true_label}\nPredicted Label: {predicted_label}\n\n"
+                outfile.write(result)
+    print("Results saved to", output_file)
     print("Correct Predictions:", correct_predictions)
     print("Incorrect Predictions:", incorrect_predictions)
 
-# Visualize inference results for the data subset
-visualize_results(data_subset)
+# Specify the output file path
+output_file = "inference_results.txt"
+
+# Visualize inference results for the data subset and save them to the output file
+visualize_results(data_subset, output_file)
