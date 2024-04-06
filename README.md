@@ -4,7 +4,12 @@ This project is based off of a capstone project that was built by four undergrad
 
 This repository contains code that was used to fine-tune the Zephyr 7B.
 
-### Install dependencies
+### Install dependencies for visualizations
+```
+pip install pandas matplotlib nltk wordcloud textblob seaborn
+```
+
+### Install dependencies for fine tuning
 ```
 pip install transformers datasets peft sentencepiece protobuf trl wandb
 pip install -U optimum

@@ -1,0 +1,1157 @@
+[
+    {
+        "Title": "A Lesson to Learn",
+        "Objective": "Speak with Dendrite Starblaze in the village of Nighthaven, Moonglade.",
+        "Text": ", I have been following your progress with much delight. You are most assuredly developing yourself into a valued protector of nature. The time has come for you to learn more about one of the various animal aspects that Cenarius has blessed us with the ability to change into - one that affords you command and mastery of the water. For this, you must travel to the village of Nighthaven in Moonglade and speak with Dendrite Starblaze of the Cenarion Circle there. He will guide you further."
+    },
+    {
+        "Title": "Kanrethad's Quest",
+        "Objective": "Speak to Kanrethad to restore your talents, weapon and mount.",
+        "Text": "Welcome back from the world of death. In an age long past you stood proud, a hero among your brethren. Now you stand fallen and broken - a relic of the past. Stand before me, as I awaken the legend that you once were. I shall restore the weapons and powers you have lost, making you whole once again."
+    },
+    {
+        "Title": "Rise of the Silithid",
+        "Objective": "Take the report to Zilzibin Drumlore in Orgrimmar.",
+        "Text": "Here's your report. I urge you to take it to someone who might have working knowledge in this kind of thing. I know this troll scholar named Zilzibin Drumlore. He's spent a lot of time studying life forms that are unique to the ecology of Azeroth; he's a historian to boot! If you want someone to help figure out what exactly this threat is and how to stop it, give this report to him. We're going to need all the help we can get. Zil lives in a house on the second tier of the Drag in Orgrimmar."
+    },
+    {
+        "Title": "Stunning Defeat at the Ring",
+        "Objective": "Defeat the gladiators at the Ring of Judgment and face Oluf the Violent. Defeat Oluf and recover the Ancient Cipher.",
+        "Text": "Oluf will come out if you defeat the other gladiators. That's 'bout the only way we're getting' that cipher back. Put on your whompin' boots and get busy in the Ring of Judgment. If you do manage to get the cipher back, return it to Glorenfeld o'er near the entrance to these catacombs. Me? Don't worry about me! We're on the brink of discovering the missing link to human-kind!"
+    },
+    {
+        "Title": "Rivenwood Captives",
+        "Objective": "Longrunner Skycloud has asked you to free his 7 Winterhoof Longrunners. Once you have managed to do so, return to him at Steel Gate.",
+        "Text": "Something, most likely the walking dead known as the Scourge, has agitated the creatures hereabouts. While escorting the sage here, we lost most of our hunting force to the riven widows -- huge and deadly spiders, which inhabit the Rivenwood to the north. I must stay here to protect the small force we have left, but you... you could see if my longrunners are still alive, trapped within the riven widow's cocoons. Would you do this, stranger?"
+    },
+    {
+        "Title": "Keeping Watch on the Interlopers",
+        "Objective": "Speak to Apothecary Malthus at the Apothecary Camp.",
+        "Text": "Even the earth cannot hold back the tide of death washing over it. Corpses walk the land, spreading their putrefaction with alarming speed. A small expedition has made its way up the western cliffs and rests near Whisper Gulch. Take a look for yourself. See if you can learn their purpose and dissuade them from bringing their poisons into our lands. Travel southwest from the post, toward the cliffs overlooking the western beach. Their camp will be west of the excavation at Steel Gate."
+    },
+    {
+        "Title": "Bark for the Barleybrews!",
+        "Objective": "Spread the word about Brewfest at the flags outside the bank, in the Military Ward, in the Hall of Explorers and in the Mystic Ward.",
+        "Text": "We need to get the word out about the Barleybrews at Brewfest. You need to shout at the flags outside the bank, in the Military Ward, in the Hall of Explorers and in the Mystic Ward. I'll make things easy though, I'll lend you a racing ram for 4 minutes. Use the reins to let him go, but try not to tire him out."
+    },
+    {
+        "Title": "The Offensive Begins",
+        "Objective": "Speak to Sergeant Gorth at the blockade near the elevator west of Vengeance Landing in Howling Fjord.",
+        "Text": "No one seems to know very much about the vrykul. Our records show no signs of activity in their lands for centuries. Yet here they are, just as we move against Arthas. The map you retrieved makes it clear that we'll have to defeat them if our forces are to get any further into Northrend. One of my best sergeants, an abomination known as Gorth, oversees the blockade beyond the lift. Assist him in launching a pre-emptive strike on Baleheim. If a vrykul attack occurs, it will be launched from there."
+    },
+    {
+        "Title": "Bark for the Thunderbrews!",
+        "Objective": "Spread the word about Brewfest at the flags outside the bank, in the Military Ward, in the Hall of Explorers and in the Mystic Ward.",
+        "Text": "It's time to let people know that the Thunderbrew have heard their cries for good brew. You need to shout at the flags outside the bank, in the Military Ward, in the Hall of Explorers and in the Mystic Ward. We'll make it easy though. We'll lend you a ram for 4 minutes. Be careful with going too fast though since you won't find any apple crates in Ironforge... We can't take the chance of helping out the Barleybrew messengers."
+    },
+    {
+        "Title": "Preying Upon the Weak",
+        "Objective": "Trapper Jethan at Fort Wildervar wants you to bring him 8 pieces of Trapped Prey.",
+        "Text": "Glad to meet you. I've come here from the Grizzly Hills to do business with your cohorts. My people maintain a large outpost there, and you'd do well to visit it when you head north. I've set up traps in the woodlands and snowy areas around here. With the meat and the furs from the creatures they capture, I'll have plenty to barter with the townspeople. I can offer you a share of my profits if you're willing to help gather prey from the traps. Beware though, you won't be the only predator out there."
+    },
+    {
+        "Title": "Find Sage Mistwalker",
+        "Objective": "Greatmother Ankha has asked you to check on the condition of Sage Mistwalker. She believes him to be at or near Steel Gate.",
+        "Text": ", I grow worried that my son, Sage Mistwalker, has been gone for such a long time. The land is cruel and deadly. He spoke of a recurring vision that he had of a wolf, and went west with a small group of longrunners to seek its source. I believe the name of the place he mentioned was Steel Gate. Will you find him? I want to make sure that no ill has befallen him."
+    },
+    {
+        "Title": "Guided by Honor",
+        "Objective": "Return the Sacred Artifact to Lord Irulon Trueblade at Valgarde.",
+        "Text": "Glory to the Light. You have done it!  Take the artifact and return it to Valgarde. Lord Irulon Trueblade awaits its return. Fight with honor, friend. Always. Honor."
+    },
+    {
+        "Title": "A Lesson in Fear",
+        "Objective": "Gorth wants you to kill Ulf the Bloodletter, Oric the Baleful and Gunnar Thorvardsson and drive the Forsaken Banner through their corpses. Slay Vrykul across the Forsaken blockade until they appear.",
+        "Text": "When you've been in lots of fight like Gorth, you learn that to beat enemy good you have to make them really scared to die! But these vrykuls not afraid. You kill one and another comes... screaming louder and with a bigger weapon than the one before. Only thing that makes vrykuls afraid is when we kill the biggest and baddest vrykul of all. Go fight the Winterskorn across the blockade until hero vrykuls show up! Then you kill them dead and put queen's flag on corpses. They must learn to fear!"
+    },
+    {
+        "Title": "To Westguard Keep!",
+        "Objective": "Take the Dragonflayer Battle Plans to Captain Adams at Westguard Keep in the Howling Fjord.",
+        "Text": "We've got all the information we need to keep Valgarde protected. You must take these battle plans to Westguard Keep, located on the western fjord cliff wall. Speak with the flight master assistant, Emilune Winterwind. She will put you on the back of a gryphon headed towards Westguard. Once there, find Captain Adams. He's the one in charge. Adams will know what to do with these plans."
+    },
+    {
+        "Title": "Dragonflayer Battle Plans",
+        "Objective": "Vice Admiral Keller at Valgarde Port in the Howling Fjord has asked that you bring him the Dragonflayer Battle Plans.",
+        "Text": "While we were able to gather very little information as to the whereabouts of Ingvar, we do know that Yanis resides in a cave next to the worg pit inside Wyrmskull Village. Intelligence gathered from the rescued soldiers indicates that Yanis guards Dragonflayer battle plans. I need you to go back to Wyrmskull and recover those plans. Kill any vrykul that get in your way - including Yanis!"
+    },
+    {
+        "Title": "The Shining Light",
+        "Objective": "Ares the Oathbound in the Utgarde Catacombs wants you to recover the Sacred Artifact.",
+        "Text": "I am an envoy of the Argent Crusade, charged with a sacred duty. Our forces were decimated in the Plaguelands. By the light of dawn, the artifact was cleansed and made pure once more. So many perished in the wake of its redemption. There is still a chance... still time. The artifact was hurled into the den of the fallen, far below us. Guarded by the unmerciful dead.  Light. Will. Protect. You."
+    },
+    {
+        "Title": "The Artifacts of Steel Gate",
+        "Objective": "Sage Mistwalker has asked you to collect 10 Steel Gate Artifacts. When you have all of them, return to him at Steel Gate.",
+        "Text": "I came out here for a different reason; an old friend of mine has been calling to me in my dreams. But now that I see these small things with their machines making a big hole in the ground, it makes my blood boil. From what I can see, these dwarves, as they are known, are digging up artifacts; artifacts that could be important to our past. I want you to go down there and get these things for me. Don't let any of those dwarves stand in your way."
+    },
+    {
+        "Title": "Baleheim Bodycount",
+        "Objective": "Sergeant Gorth wants you to kill 16 Winterskorn Vrykul inside Baleheim.",
+        "Text": "Them vrykuls just keeps coming and coming out from town west of here. No end in sight! Gorth has an idea. You go INSIDE town and kill them Winterskorn there. THEN they stop coming here!"
+    },
+    {
+        "Title": "These Look Familiar...",
+        "Objective": "Find Thaelin's Workshop in Gorgrond.",
+        "Text": "So what is the Iron Horde doing with Dark Iron technology? I know who ta ask! Thaelin Darkanvil is a genius engineer from the Dark Iron clan who's been helping us here on Draenor. You may have already met him in yer travels, eh? Word is he set up a bunker somewhere in Gorgrond, a secret workshop so-to-speak. If ye can find him, he may know somethin' about this. Er, and be cautious, eh? The Dark Iron may be our allies now, but I trust 'em about as far as I can throw 'em."
+    },
+    {
+        "Title": "The Prototype",
+        "Objective": "Use the Prototype Mole Machine to look for Thaelin Darkanvil.",
+        "Text": "A few days ago a bunch of Iron Horde orcs showed up and kidnapped Thaelin. They've been keeping me alive as collateral to make sure he cooperates. I don't know where they took him, but I know how to get us there. Thaelin keeps a tracking device on him at all times - don't ask where he hides it. Anything he makes that can move has a \"Come to Papa\" button that sends it straight to him. In retrospect, not a great feature for the walking bombs... but perfect for the mole machine! Jump in and let's go!"
+    },
+    {
+        "Title": "And The Mole You Rode In On",
+        "Objective": "Bring Thaelin Darkanvil to Hansel Heavyhands in the Iron Siegeworks.",
+        "Text": "I think we've kept Hansel waiting long enough. Can you take me to him? Then we can all hitch a ride out of here on the mole machine."
+    },
+    {
+        "Title": "The Captive Engineer",
+        "Objective": "Find Thaelin Darkanvil in the Iron Siegeworks.",
+        "Text": "Argh... I'm sorry, but I'm too weak to fight. They kept me alive, but just barely. I'll keep an eye on the mole machine while you look for Thaelin. He should be somewhere close!"
+    },
+    {
+        "Title": "Fungal Heart",
+        "Objective": "Collect 3 Fungal Hearts.",
+        "Text": "The second ingredient I will need for the elixir is harder to obtain. Along the river roam Marsh Giants - fungal monstrosities whose hunger is never sated. I will need three of their hearts. The stronger the heart, the more potent the mixture, and the clearer my vision."
+    },
+    {
+        "Title": "Garrison Campaign: Seismic Matters",
+        "Objective": "Speak with Jr. Surveyor Dorn at your garrison.",
+        "Text": "One of our junior surveyors has been harassing me about unusual seismic activity. I find it hard to believe that we accidentally built on some kind of fault line - we triple checked! Can you have a word with him?"
+    },
+    {
+        "Title": "Never Forget",
+        "Objective": "Recover the Telmor Registry, the Auchenai Prayerbook, and Leafshadow in Telmor.",
+        "Text": "We had to escape Telmor with what few we could save. Someone disabled Leafshadow's cloaking field; I know not who, but I suspect it had to have been one of our own. We will retrieve our livelihoods in time, but we cannot risk losing our sacred artifacts. If you are able, bring Leafshadow, our town registry, and our prayerbook to safety."
+    },
+    {
+        "Title": "Need More Teeth",
+        "Objective": "Collect 30 Putrid Brown Ogre Teeth.",
+        "Text": ""
+    },
+    {
+        "Title": "Build Us A Backdoor",
+        "Objective": "Help Nightstalker find a weak spot in the Stonemaul Slave Camp walls.",
+        "Text": "According to the prisoner here, the Stonemaul ogres are providing slaves and supplies to the Iron Horde. No creature should live a life in chains! And to add insult to injury, Orgrim Doomhammer is here to discuss terms with them! I sent my wolf Nightstalker ahead to find a weakness. If there is another way in, he will find it. Go, find my wolf near walls of the Stonemaul camp south of here. Test their defenses. If you cannot find us a way in, then make one."
+    },
+    {
+        "Title": "We Are Leaving!",
+        "Objective": "We have who we came for. Find the others. Tell them to get back to the caravan as soon as possible.",
+        "Text": "We have who we came for. Find the others. Tell them to get back to the caravan as soon as possible. It will not be long before the ogres figure out how few of us there actually are. We will wait for you at the front gates."
+    },
+    {
+        "Title": "Shadows Awaken",
+        "Objective": "Confront Ner'zhul.",
+        "Text": "We've managed to pin Ner'zhul inside the Observatory, but he's taken many down with him. He has taken Yrel's sister, Samaara. I am needed to hold the line here. Please, do whatever you can to save her, hero."
+    },
+    {
+        "Title": "Hansel, Report",
+        "Objective": "Speak with Hansel Heavyhands at Bastion Rise in Gorgrond.",
+        "Text": "I have Hansel directing our counter-fire against the Iron Horde's war machines. I need to know what's going on and why some of the orcs slipped through. He's down the hill to the north."
+    },
+    {
+        "Title": "Invasion of the Soul Eaters",
+        "Objective": "Use torches from a forge to burn 4 body piles in Telmor.",
+        "Text": "Telmor is lost. The Shadow Council is dragging our fallen into piles and feeding the souls to their leader. There is blood on my hands... Please, if anyone reads this message, burn the bodies of our fallen so our enemy cannot use them. - Restalaan, Captain of the Guard"
+    },
+    {
+        "Title": "The Final Piece",
+        "Objective": "Take Auch'naaru from Vorpil Ribcleaver in Telmor.",
+        "Text": "I am too injured to fight. I have failed my city and its people. This battle is yours. Vorpil waits just ahead. He's trying to use Auch'naaru's powers for some sort of dark ritual. You must do what I could not. Cut Vorpil down and retrieve Auch'naaru so the Heart of Auchindoun can be whole once more!"
+    },
+    {
+        "Title": "Vile Defilers",
+        "Objective": "Destroy 5 Defiling Crystals in Deathweb Hollow.",
+        "Text": "The deathweb spiders are remarkable creatures. Their venom twists the very form of their victims. We are not the only ones privy to this information. The Shadow Council has already dispatched its warlocks to Deathweb Hollow to infuse the spiders with fel energy so that their venom turns creatures into demonic minions! We must destroy the defiling crystals to prevent all of Talador from bending to Teron'gor's will!"
+    },
+    {
+        "Title": "Dying Wish",
+        "Objective": "Recover Ahm's Heirloom from Blademaster Bralok.",
+        "Text": "I am too far gone to rescue, but thank you for speaking with me.Blademaster Bralok had his men starve and beat me, and he stole an heirloom that has been in my family since before we arrived on Draenor.Should you find it, please let me see it once more so I may die in peace."
+    },
+    {
+        "Title": "Into the Hollow",
+        "Objective": "Kill Xanatos the Defiler in Deathweb Hollow and retrieve Sha'tari.",
+        "Text": "I've learned that the Shadow Council is using the nearby deathweb spiders' venom to spread fel corruption and augment their forces after their defeat at the Burning Front. One of my soulbinders saw a dreadlord headed into the eastern mines with Sha'tari, one of the remaining pieces of the Heart of Auchindoun. I need you to wrest Sha'tari from the dreadlord's quivering corpse and bring it to me, champion."
+    },
+    {
+        "Title": "Dying Wish",
+        "Objective": "Speak to Ahm at Archenon Siegeyard.",
+        "Text": "This appears to be an ancient Draenei heirloom. Blood stains on it would indicate that it was taken from its owner by force.An inscription on the back says \"Ahm,\" which is likely its rightful owner."
+    },
+    {
+        "Title": "Goren Boss Kill and Collect",
+        "Objective": "",
+        "Text": "This curious looking gem seems to have fallen from Pastrok's back. Perhaps a skilled gem-shaper or jewelcrafter would have a use for it."
+    },
+    {
+        "Title": "Vile Defilers",
+        "Objective": "Destroy 5 Defiling Crystals in Deathweb Hollow.",
+        "Text": "The spiders in the nearby overrun mine are feared by many, for their venom twists the very form of their victims. Many of the locals stay far away from their hollow, but I fear the Shadow Council has become privy to this information. Our scouts report that their warlocks are infusing these spiders with fel energy so that their venom turns their victims into demonic minions! We must destroy the defiling crystals so this madness does not spread."
+    },
+    {
+        "Title": "Antivenin",
+        "Objective": "Collect 9 Deathweb Fangs in Deathweb Hollow.",
+        "Text": "I'm worried about Nyami. She's so focused on retrieving the Heart of Auchindoun that she seems to have lost sight of everything else. I'm sorry, I'm not trying to belittle her wisdom, but look around! Every soldier we sent into the mine has been gravely injured by the deathweb spiders. Their wounds need immediate attention! Please, can you retrieve some fangs from the spiders? I can use them to create an antivenin, but I need to stay here and keep them stable until then."
+    },
+    {
+        "Title": "Antivenin",
+        "Objective": "Collect 9 Deathweb Fangs in Deathweb Hollow.",
+        "Text": "I'm worried about Nyami. She's so focused on retrieving the Heart of Auchindoun that she seems to have lost sight of everything else. I'm sorry, I'm not trying to belittle her wisdom, but look around! Every soldier we sent into the mine has been gravely injured by the deathweb spiders. Their wounds need immediate attention! Please, can you retrieve some fangs from the spiders? I can use them to create an antivenin, but I need to stay here and keep them stable until then."
+    },
+    {
+        "Title": "A Gift for Raa'la",
+        "Objective": "Collect a Baby Rylak for Raa'la in the Windswept Lowlands.",
+        "Text": "I need to pack up this kill. I promised my daughter Raa'la I would bring her home a gift from the hunt. There are a couple baby Rylaks in the cave nearby. Maybe Raa'la would like one as a pet? Would you mind catching one while I finish up here?"
+    },
+    {
+        "Title": "You Sunk My Battleship!",
+        "Objective": "Plant the Underwater Explosives on the Iron Horde boats.",
+        "Text": "They sunk my battleship! I drove her in with a cargo of underwater explosives to place on the Iron Horde ships, but they spotted me and opened fire! Luckily I was able to salvage most of the explosives before she sank. Ain't nobody sinks my ship and gets away with it...nobody! Take the rest of the underwater charges and plant all of 'em on the western Battleship. You'll have to swim your way into the harbor to avoid detection. When you're done, swim into shore. I'll be waiting on the path!"
+    },
+    {
+        "Title": "Into the Hollow",
+        "Objective": "Kill Xanatos the Defiler in Deathweb Hollow and retrieve Sha'tari.",
+        "Text": "I've learned that the Shadow Council is using the nearby deathweb spiders' venom to spread fel corruption and augment their forces after their defeat at the Burning Front. One of my soulbinders saw a dreadlord headed into the eastern mines with Sha'tari, one of the remaining pieces of the Heart of Auchindoun. I need you to wrest Sha'tari from the dreadlord's quivering corpse and bring it to me, champion."
+    },
+    {
+        "Title": "The Hunting Party",
+        "Objective": "Find the Frostwolf Hunters in the Windswept Lowland.",
+        "Text": "Korga and her brothers have been out hunting for days and have not returned. This is a common problem amongst our clan. Call them in so they can get some proper rest."
+    },
+    {
+        "Title": "Missing Pack",
+        "Objective": "Find Shivertail near Wor'gol in Frostfire Ridge.",
+        "Text": "Strange, I wonder where little Shivertail and his pack are? They normally show up for a feeding about now. I hope everything is alright."
+    },
+    {
+        "Title": "Missing Frostwolves",
+        "Objective": "Search Bloodmaul for the missing Frostwolves.",
+        "Text": ", I'm glad you're here. Several Frostwolf patrols have gone missing recently around the Bloodmaul Compound. Search the area around Bloodmaul and report back to me when you're done."
+    },
+    {
+        "Title": "The Bloodmaul Scheme",
+        "Objective": "Deliver the Ogre Plans to Rogash.",
+        "Text": ""
+    },
+    {
+        "Title": "Outrider Urukag",
+        "Objective": "Join Urukag on his hunt.",
+        "Text": "I can't believe I'm stuck here cooking while Urukag is out there hunting with the others. If you hurry you might still be able to catch him."
+    },
+    {
+        "Title": "And the Elekk Too?!",
+        "Objective": "Return Ricky to Caleb at the overturned cart.",
+        "Text": "The little stuffed elekk has seen better days. It's torn and the stuffing is poking out. The name Caleb is sewn onto the bottom of the left back foot. Sher'khaan must have snatched it from the cart. The little draenei might appreciate its return."
+    },
+    {
+        "Title": "Shivertail's Den",
+        "Objective": "Search for Shivertail's parents in Frostfire Ridge.",
+        "Text": "The Frostwolf pup looks at you with his big eyes. He howls and stares into the cave. It's unusual for a wolf this young to be wandering around by itself. Shivertail's parents must be nearby."
+    },
+    {
+        "Title": "This Is Not a Quest",
+        "Objective": "Help Deceptia",
+        "Text": "We need help! But not from you..."
+    },
+    {
+        "Title": "A Wrong of Earth and Fire",
+        "Objective": "Deliver the Molten Core to Incineratus.",
+        "Text": "The molten core appears to be the mutated remains of an elemental that consisted of both earth and fire. Slag elementals should not exist upon the plateau where the elements live in purity. You decide that the core should be taken to Incineratus at the Throne of Elements for examination. Perhaps the great fury of fire will know what to make of this core and your battle with Magmire."
+    },
+    {
+        "Title": "Saberon Matriarch",
+        "Objective": "Slay the Saberon Pridematron.",
+        "Text": "The current matriarch of the Windswept Lowland saberon pride is bold.She leads her pride in ambushes and attacks that some consider organized raids on our supply lines.The intelligence she displays is becoming a legitimate threat.Take her out and perhaps she'll be replaced with a less dangerous leader."
+    },
+    {
+        "Title": "Disrupting the Flow",
+        "Objective": "Destroy 4 Burning Resonators in the Burning Front.",
+        "Text": "You there, we need to stop the flow of demon reinforcements! Do you see the floating fel crystals spread throughout the front? Those resonators are powering the portals unleashing hell on our forces. I need you to take them out!"
+    },
+    {
+        "Title": "Demons? In Auchindoun?",
+        "Objective": "Kill O'mogg Blackheart in the Tomb of Lights to shut down the demon portal.",
+        "Text": "Demons! I feared as much. We cannot let them leave that tomb. They musn't be allowed near Auchindoun! Quickly, go in and shut down the portal letting them in while I help rally the Auchenai's defenses. There must be a powerful warlock keeping it open. Kill him and the portal will fall apart!"
+    },
+    {
+        "Title": "Stolen Axes",
+        "Objective": "Recover 8 Stolen Frostwolf Axes.",
+        "Text": "The saberon usually keep to themselves, but sometimes they range out of their dens and attack.A pride of them live in the Windswept Lowland and have been coming too close for comfort, especially at night.They even attacked a shipment of axes and took them back to their den!"
+    },
+    {
+        "Title": "WANTED: Grondo's Bounty",
+        "Objective": "Kill Grondo in the Crackling Plains.",
+        "Text": "Grondo, a mad gronn, has been seen roaming the Crackling Plains. This beast has been killing entire herds of clefthoof and devouring innocent frost wolves. We must destroy this threat before it reaches the Garrison."
+    },
+    {
+        "Title": "Young Hearts",
+        "Objective": "Find Orac and tell him to return home to his uncle.",
+        "Text": "My nephew never pays attention to his surroundings. In his eagerness to prove himself, he has strayed from the pack -- again. He reminds me of myself when I was a youngling. If you see Orac, tell him to return home. We need to finish preparing for tomorrow's hunt."
+    },
+    {
+        "Title": "WANTED: Gutsmash the Destroyer",
+        "Objective": "Kill Gutsmash the Destroyer in Frostfire Ridge.",
+        "Text": "Gutsmash has proven to be more than a worthy adversary. Gather a small group together and end his reign of terror once and for all."
+    },
+    {
+        "Title": "The Heart of Auchindoun",
+        "Objective": "Defeat O'mogg Blackheart and retrieve Karab'uun in the Burning Front.",
+        "Text": "A band of Shadow Council orcs stole the Heart of Auchindoun! The Heart powers all of Auchindoun's defenses. Thankfully we were able to save its core and one of its four pieces. The warlock O'mogg Blackheart is using Karab'uun, one of the stolen pieces, to power the largest portal in the Burning Front. Return Karab'uun to me."
+    },
+    {
+        "Title": "Desperate Times",
+        "Objective": "Ride to the Tomb of Lights with Lady Liadrin.",
+        "Text": "This alliance between the Bonechewer and Teron'gore does not bode well. We cannot allow the remaining two key fragments to fall into their hands. The Auchenai cannot stop the onslaught, so the duty falls on us. Let us waste no time. We ride for the Tomb of Lights at once."
+    },
+    {
+        "Title": "Gut Guttra",
+        "Objective": "Kill Guttra Wolfchew.",
+        "Text": "Guttra Wolfchew's hunger can be blamed for this massacre. He will pay with his life for the blood spilled today. You can find Guttra up on Grimfrost Hill to the north. Slay him and return to me. When you get back we shall drink to our victory."
+    },
+    {
+        "Title": "The Power Shards",
+        "Objective": "Retrieve the Shard of Souls in the Tomb of Souls.",
+        "Text": "I know what the Bonechewer are after. Auchindoun is protected by a powerful barrier, which can only be disabled using an ancient key. No being could ever hope to penetrate it. The Auchenai, my people, split the key into three shards long ago and hid each piece outside the mausoleum walls. We guard those shards with the same zeal as Auchindoun itself. Go into the Tomb of Souls and retrieve the key from Soulbinder X. The shards are no longer safe."
+    },
+    {
+        "Title": "No Draenei Left Behind",
+        "Objective": "Find Yuuri near the Tomb of Souls in the Court of Souls.",
+        "Text": "Yuuri, head caretaker of the outer terraces of Auchindoun, hasn't been accounted for yet. The last time anyone saw him, he was heading into the Tomb of Souls to protect the key shard. Will you make sure he finds his way here safely?"
+    },
+    {
+        "Title": "The Power Shards",
+        "Objective": "Retrieve the Shard of Souls in the Tomb of Souls.",
+        "Text": "I know what the Bonechewer are after. Auchindoun is protected by a powerful barrier, which can only be disabled using an ancient key. No being could ever hope to penetrate it. The Auchenai, my people, split the key into three shards long ago and hid each piece outside the mausoleum walls. We guard those shards with the same zeal as Auchindoun itself. Go into the Tomb of Souls and retrieve the key from Soulbinder X. The shards are no longer safe."
+    },
+    {
+        "Title": "Closing the Door",
+        "Objective": "Close 3 Void Portals by killing Shadowmoon Portalmasters.",
+        "Text": "The Shadowmoon orcs are using portals to bring in reinforcements and smuggle away draenei captives. If we are to have any hope of retaking the village, we must destroy the portals at once. The only way to do this is to kill the portalmasters who keep the rifts open."
+    },
+    {
+        "Title": "War Kangaroo!",
+        "Objective": "test",
+        "Text": "test"
+    },
+    {
+        "Title": "Balance of Power",
+        "Objective": "Speak to Romuul's assistants to collect an Optical Disc, Conducting Crystal, and Romuul's Wrench.",
+        "Text": "The Prophet needs to locate the arkonite crystals, but in order to do that, I'll need to fix the projection discs on that platform. Speak to my assistants around the observatory and bring me an Optical Disc, a Conducting Crystal, and my wrench."
+    },
+    {
+        "Title": "Slaying Slavers",
+        "Objective": "Slay 12 Sootstained Ogres.",
+        "Text": "These ogres keep takin' my clan and turnin' them into slaves!Slay some ogres and I'll hold 'em off if they try to run."
+    },
+    {
+        "Title": "Just Peachicky",
+        "Objective": "Rescue 7 Frightened Peachicks and return them to Caleb.",
+        "Text": "That mean old Sher'khaan! He's always been a bully to these poor peachicks, but this is crossing the line! I was trying to move this poor clutch out of the way of the demons when he attacked! Now the peachicks are spread out all over and they're scared! Please help me bring them all back!"
+    },
+    {
+        "Title": "Sher'KHAAAAAAANNNN!",
+        "Objective": "Kill 8 Sharpfang Stalkers and Destroy Sher'khaan.",
+        "Text": "The tigers here have gotten out of control! They're everywhere and meaner than ever! Sher'khaan is the worst of them! He's huge and mean! Maybe a brave adventurer like you could take care of Sher'khaan and the other tigers once and for all."
+    },
+    {
+        "Title": "No Miner Left Behind",
+        "Objective": "Rescue 8 Jorune Miners from within the Jorune Quarry.",
+        "Text": "In all of my years working the quarry I have never seen goren in this number. They came on so quickly, we had no time to react. Now the quarry has been weakened from their tunneling and eating. it's only a matter of time before the whole thing collapses. I refuse to leave anyone to die in there with those things! Please help me. Save as many of my miners as you can."
+    },
+    {
+        "Title": "Can't Live With 'Em, Can't Learn Without 'Em",
+        "Objective": "Rescue 8 Jorune Miners from within the Jorune Quarry.",
+        "Text": "The Draenei here are so in touch with the light. It's imperative that we learn as much as we can from them. We must find a way to overcome their distrust in us... The Jorune Quarry was attacked by goren leaving many helpless miners trapped within. The miners aren't fighters and would probably appreciate help from anywhere at this point. Maybe if you lend a hand in rescuing them, we may earn ourselves some goodwill."
+    },
+    {
+        "Title": "Aruumel's Rest",
+        "Objective": "Enter the Spirit Realm and destroy the Memory of Arumel.",
+        "Text": "It is my job to see what others cannot. I keep the memories and read them for others, but I can no longer do so because of my son. My son turned his back on the light. When he perished I could not stand the thought that his spirit might not be welcomed into Auchindoun. I interfered and trapped him here. Now he twists and tortures the memories until they cannot be read. You must do what I cannot bear to do myself. Use this elixir to enter the spirit realm... ...and destroy my son's spirit."
+    },
+    {
+        "Title": "Goren, Goren, Gone!",
+        "Objective": "Destroy 15 Goren Stonechewers and their leader, Pastrok within the Jorune Quarry.",
+        "Text": "It's uncommon to see goren in Talador. We need to get a handle on this situation before it spreads and we lose all of our precious gems. The only answer is to dispose of the creatures, and quickly! It is imperative that you kill the leader too! If you don't they will just continue to come back."
+    },
+    {
+        "Title": "Cure of Aruunem",
+        "Objective": "Collect 60 Aruunem Berries from around Duskfall Island.",
+        "Text": "I need your help in creating an elixir that will allow us passage into the realm of the dead. In order to create it I require a sampling of the local vegetation. You will find Aruunem berries scattered about on the island. Bring me as many as you can carry. Be warned: do not eat them raw! The poison in the berries would kill you within minutes!"
+    },
+    {
+        "Title": "Goren, Goren, Gone!",
+        "Objective": "Destroy 15 Goren Stonechewers and their leader, Pastrok within the Jorune Quarry.",
+        "Text": "I was all set to take a little trip to the nearby quarry when all of the sudden a bunch of goren bust out of the ground and started wreaking havoc! It would be a shame for all of those beautiful gems to be destroyed by those filthy creatures. All they do is eat them! Can you believe that?! Be a dear and dispose of them. Make sure you get rid of the leader or they will only come back."
+    },
+    {
+        "Title": "Dust of the Dead",
+        "Objective": "Collect 7 Handfuls of Duskwing Dust from the Duskwing Moths on Duskfall Island.",
+        "Text": "I thought if I could just bring him here that I might be able to correct his transgression against the Light. That perhaps I could save my son! Now my beloved Arumel is a twisted phantasm. I'm left with no choice but to right my wrongs and I need your help. Bring me duskwing dust from the moths on Duskfall Island. With your aid I can craft an elixir that will let us travel to the realm of the dead and lay Arumel to rest."
+    },
+    {
+        "Title": "Seek Out the Seer",
+        "Objective": "Speak to Seer Malune on Duskfall Island in Talador.",
+        "Text": "We've been watching you. Seer Malune, keeper of memories, has requested an audience with you, adventurer. She has long foretold the coming of a great hero to destroy the lurking shadow. We believe you are that hero. Come to Duskfall Island, not far south of here, and fulfill your destiny."
+    },
+    {
+        "Title": "The Home of the Frostwolves",
+        "Objective": "Speak with Drek'Thar at the crash site in Frostfire Ridge.",
+        "Text": "You have arrived in Frostfire Ridge. Farseer Drek'Thar can guide you from here."
+    },
+    {
+        "Title": "The Pale Hunter",
+        "Objective": "Help Helga reclaim her sanity.",
+        "Text": "Spiders! Where is my father! I feel so... so... good? Bad? Don't judge me! Leave me alone! I'm sleeping... in my brain. AHH!! More bunnies!"
+    },
+    {
+        "Title": "The Plight of the Worgen",
+        "Objective": "Obtain 6 Soothpetal Flowers and 8 Frog Eyes and bring them to Tess Greymane in Twilight Glade.",
+        "Text": "King Greymane, my father, has fallen ill! Every day he's worse, losing control over his mind, becoming... feral. He's bedridden in Stormwind as we speak, and he isn't the only one. Krennan Aranas found what he thought might be the cure in Outland, but it was corrupted beyond recognition. I need to find the cure before he loses every bit of his humanity! Hemma, one of my guards, is sick as well. I need you to collect some soothpetal flowers and frog eyes. We have to try something."
+    },
+    {
+        "Title": "Vignette: Broodmother Reeg'ak",
+        "Objective": "Destroy $1oa Goren Egg Clusters Iceforge Ironchewers, and Broodmother Reeg'ak.",
+        "Text": "Goren are dangerous, especially in large numbers, and especially when we have a blind, under powered shaman with us. Fortunately, they have very short lifespans. Unfortunately, they multiply fast and grow faster. If we are going to do this we need to find the brood mother. Slaying her and her eggs should slow down the onslaught of goren. Check the burrows near the Forge Gates and I will to keep them off of Drek'Thar's scent."
+    },
+    {
+        "Title": "The Master Siegesmith",
+        "Objective": "Slay Master Siegesmith Uratok in Grom'gar.",
+        "Text": "Not long ago, the most advanced weapon a Thunderlord could make was a really, really big spear. The Blackrock orcs must have shipped in a fearsome master to have them producing cannons so rapidly. We need to find that master."
+    },
+    {
+        "Title": "WANTED: Kliaa's Stinger",
+        "Objective": "Kill Kliaa and bring its stinger to Dyuna at Embaari Village.",
+        "Text": "Posted by: Dyuna A vicious queen swamplighter has made the northern forests of Shadowmoon its home. Unfortunately, this poisonous pest terrorizes the forest between Embaari Village and Shattrath. As local traders put their lives at risk, prices of goods will continue to rise. Anyone who can put an end to the beast should detach its stinger as proof and bring it to Dyuna in Embaari Village. The merchant traders will reward generously."
+    },
+    {
+        "Title": "Smeltcraft",
+        "Objective": "Use Na'Shra's Mining Pick to collect 20 Fomic Ore.",
+        "Text": "Stranger! Thank the spirits for them sending you to me now. I am forging a blade and cannot leave it at this delicate state. But I need more ore to complete this task. Here, take my mining pick. It is crafted from the teeth and acid of the local goren and will cut through the ore of this area as if it were air. Bring me the ore and I will lend this blade to your cause."
+    },
+    {
+        "Title": "WANTED: Kuu'rat's Tusks",
+        "Objective": "Slay Kuu'rat and bring her tusks to Eremor at Embaari Village.",
+        "Text": "Posted by: Eremor A ferocious elekk of unprecedented size has been seen near Gloomshade Grove. Known to some as the ivory death, she is abnormally aggressive and has already taken the lives of several unwary travelers. The rangari have as yet been unable to corner this creature. Anyone capable of taking down this beast should exchange proof of her demise to Eremor for a hefty bounty."
+    },
+    {
+        "Title": "Darkness Falls",
+        "Objective": "Find Ner'zhul.",
+        "Text": "It is already beginning, over the hills to the southeast. Ner'zhul has everything he needs to summon the Dark Star. The Iron Horde attack on Karabor is imminent. This is where everything ends. Champion, I must ask you to ride ahead and delay Ner'zhul. I will join you as quickly as I can."
+    },
+    {
+        "Title": "Where's My Wolf?!",
+        "Objective": "Slay Beastmaster Torash and free Nerok in Grom'gar.",
+        "Text": "My frost wolf, Nerok, was captured with me and the others. I do not know where they are keeping him, but I'll bet the so-called \"beastmaster\" who dragged us here does. He is at the beast pens nearby, boasting about his catch to the younger hunters. We'll see how he boasts with my axe in his skull."
+    },
+    {
+        "Title": "WANTED: Maa'run's Hoof",
+        "Objective": "Collect Maa'run's Hoof.",
+        "Text": "Posted by: Orrin A wild talbuk called \"Maa'run\" wanders the hills southeast of Embaari Village and west of The Draakorium. My brother was injured by this foul beast, and now lays in recovery. For the safety of all the nearby villages, we must put an end to this vicious, rampaging creature! A handsome reward will be given to anyone who can bring me his hoof as proof of his demise."
+    },
+    {
+        "Title": "Laabru's Rebellion",
+        "Objective": "Find Laabru at the Gar'mak Quarry in Shadowmoon Valley.",
+        "Text": "Laabru wouldn't listen. He killed one of the guards and they dragged him off to one of their tents. They are going to kill him for sure!"
+    },
+    {
+        "Title": "Signs of a Struggle",
+        "Objective": "Ruffle through the backpack near the bloody journal.",
+        "Text": "Judging by the markings, it appears to be a journal kept by a Shadowmoon orc.    Perhaps the beast's head is in one of the bags in the debris up ahead?"
+    },
+    {
+        "Title": "A Song of Frost and Fire",
+        "Objective": "Meet Durotan.",
+        "Text": "You have rescued many of my clan from the slave pens of Tanaan. Their liberation and the destruction of the Dark Portal are more than enough for me to consider you one of us. However, you are still a stranger to our leader, Durotan. I would like to introduce you to him."
+    },
+    {
+        "Title": "Fast Expansion",
+        "Objective": "Report to Baros Alexston at your garrison in Shadowmoon Valley.",
+        "Text": "Greetings, Commander. I am here on behalf of architect Baros Alexston. We have gathered enough resources for the next phase of expansion. He wishes to speak to you at your earliest convenience."
+    },
+    {
+        "Title": "Honor Has Its Rewards",
+        "Objective": "Go to the Shamanstone in Wor'gol and receive a blessing.",
+        "Text": "You have honored my people. Now, we wish to honor you. We have a rite of initiation in my clan. When one comes of age, they cover themselves in the blood of their first hunt, and rest their hands upon a shamanstone to honor the ancestors who came before them. In our brief time together you have already slain many foes more fierce than our hunters have ever had to face. Go, touch the shamanstone here in Wor'gol, and join our pack as an equal."
+    },
+    {
+        "Title": "Swamplighter Queen",
+        "Objective": "Obtain The Swamplighter Queen's Tail for Fiona in Shadowmoon Valley.",
+        "Text": "It looks like those plant creatures used some kind of poison when they attacked Gidwin. It's a powerful concoction to say the least. If we are going to cure Gidwin we need one more special ingredient. This one might be a bit harder to obtain than the others. You up to the challenge?"
+    },
+    {
+        "Title": "Lifebloom Orchids",
+        "Objective": "Collect 4 Lifebloom Orchids and bring them to Susanna Eyesley in Shadowmoon Valley.",
+        "Text": ""
+    },
+    {
+        "Title": "Free Our Brothers and Sisters",
+        "Objective": "Free 6 Frost Wolves or Wor'gol Villagers.",
+        "Text": "These Thunderlord curs use coward's weapons like nets and chains. Many of our villagers and wolf-brothers and sisters have been trapped. If you free them, they will fight at your side with honor. We must quell this attack with haste so I may return to Bladespire Citadel and continue my preparations."
+    },
+    {
+        "Title": "Across the Stars",
+        "Objective": "Collect 5 Star Readings.",
+        "Text": "A key source of the Shadowmoon clan's power comes from their understanding of the stars and their omens. For centuries, they have recorded the patterns of the stars and their interpretations. While you are in the fortress, collect some of these documents for me. We will take their own knowledge and use it against them."
+    },
+    {
+        "Title": "The Great Salvation",
+        "Objective": "Free 8 Draenei Prisoners from their cages.",
+        "Text": "We've located the prisoners. They are being held in captivity here, inside the Shadowmoon fortress. Please rescue as many of them as you can. And hurry. We can hear their screams out here."
+    },
+    {
+        "Title": "Harbingers of the Void",
+        "Objective": "Destroy the Essence of Shadow, Essence of Darkness, and Essence of Anguish.",
+        "Text": "Our scouts have made a horrifying discovery. The souls of the prisoners are being used to summon creatures from the void. Inside, three beings of darkness already await - the Essence of Shadow, the Essence of Darkness, and the Essence of Anguish. They must be destroyed immediately, before their power can be unleashed."
+    },
+    {
+        "Title": "Cooking With Unstable Herbs",
+        "Objective": "Help Fiona brew a curative elixir.",
+        "Text": "The base is boiling and ready for those ingredients. Add each of the ingredients, one at a time, and I will handle the mixing and frothing. Speak to me when you are ready."
+    },
+    {
+        "Title": "Gormaul Tower",
+        "Objective": "Take Gormaul Tower from the Bladespire ogres.",
+        "Text": "It is time for us to strike out against those who would enslave us! We travel to Gormaul Tower to wrest it from the Bladespire ogres. I would welcome your company. Mount up, and together we will ride to battle!"
+    },
+    {
+        "Title": "Fiona's Solution",
+        "Objective": "Collect 1 Riverbeast Heart, 2 Swamplighter Venom, 4 Riotvine, and 3 Moonlit Herbs.",
+        "Text": "Gidwin was attacked by one of those plant creatures. From the looks of it, he is suffering from some kind of paralysis. I can make a cure, but I'll need some local ingredients."
+    },
+    {
+        "Title": "Kuuros Farm",
+        "Objective": "Find Beldos at Kuuros Farm.",
+        "Text": "Many refugees from Tuurem have made their way to Kuuros Farm east of here. If you are able, please venture there and find Beldos. He led the refugees there from Tuurem and will be the best point of contact."
+    },
+    {
+        "Title": "Crippled Caravan",
+        "Objective": "Find Fiona's Caravan in Shadowmoon Valley.",
+        "Text": "I'm getting reports that the botani have started leaving their bloom and attacking wandering travelers. This is most unusual. We already dispatched a number of rangari to try and resolve this issue. A caravan from Azeroth passed through here recently, you should probably check on your people to ensure their safety."
+    },
+    {
+        "Title": "The Thing in the Cave",
+        "Objective": "Slay the Thing in the Cave, then loot its Dreadful Heart.",
+        "Text": "The note reads as follows: \"It cannot be defeated. No matter how many troops we send at it, it seemingly cannot be destroyed. \"We have lost too many lives as it is. I refuse to send another orc after that thing. Instead, we will establish a guard station outside the cave's mouth to keep it from getting out.\""
+    },
+    {
+        "Title": "Karg Unchained",
+        "Objective": "Slay 25 Thunderlord orcs in Grom'gar.",
+        "Text": "They took my brothers and sisters. They took my wolf.  Now we take their heads."
+    },
+    {
+        "Title": "The Survivalist's Way",
+        "Objective": "Collect 6 Glowworm Silk and 12 Razorfang Teeth in The Arbitum in Shadowmoon Valley.",
+        "Text": "I was tracking the Iron Horde's movements through the Iron March when I was spotted by one of their chimera riders. I was able to fight off their kill squad, but I'm too injured to keep going. Stranger, I must obtain as much recon as possible to aid in Karabor's defense. If you can bring me silk from the worms and a handful of teeth from the rays at the lake nearby, I can operate on my wounds and fashion a bandage that ought to hold long enough for me to finish my mission."
+    },
+    {
+        "Title": "Keeping the Balance",
+        "Objective": "Kill Snapgrip in The Arbitum.",
+        "Text": "Look at these teeth, friend. These stress markings suggest that the crocolisk are being subjugated by one of their own. When a crocolisk female grows large enough, she exerts dominance over her kin. It is my duty as a hunter to ensure balance is restored to these creatures as thanks for their sacrifice for my own life. Track down the beast and slay her while I tend to my wounds. She is likely at the far end of the arbitum."
+    },
+    {
+        "Title": "The Thing in the Cave",
+        "Objective": "Slay the Thing in the Cave, then loot its Dreadful Heart.",
+        "Text": "The note reads as follows: \"It cannot be defeated. No matter how many troops we send at it, it seemingly cannot be destroyed. \"We have lost too many lives as it is. I refuse to send another orc after that thing. Instead, we will establish a guard station outside the cave's mouth to keep it from getting out.\""
+    },
+    {
+        "Title": "Barum's Notes",
+        "Objective": "Test the effects of a Honed Crystal, a Polished Crystal and a Harmonic Crystal in Aruuna.",
+        "Text": "\"...honed to a fine edge, the material can expose weaknesses...\" \"when rounded and polished to such a degree, it wards off harmful...\" \"...this incredible discovery that a crystal can be attuned to the bearer's vitality!\""
+    },
+    {
+        "Title": "Dark Enemies",
+        "Objective": "Kill 8 Shadowmoon Voidmancers.",
+        "Text": "Your arrival should be cause for celebration, hero, but I fear our troubles are just beginning. Warlord Ner'zhul and his Shadowmoon clan have launched a surprise attack on a draenei settlement to the north. Prophet Velen has gone to aid the wounded at Teluuna Observatory, but we need more defenders. I must go to assist the others. If you wish to help us, go to Arbor Glen and kill any Shadowmoon enemies that you see."
+    },
+    {
+        "Title": "Let's Keep Racing!",
+        "Objective": "Run through the Start Banner, hit the Blue Post, then the Green Post, then the Red Post, then return to the Start Banner.",
+        "Text": "Want to keep racing, huh? That's the spirit!See if you can beat your best time! Get to the blue post, then green, then red, then back here.Your time matters, so do it fast!"
+    },
+    {
+        "Title": "Through the Looking Glass",
+        "Objective": "Look through Gazlowe's Eye 'n' Ear.",
+        "Text": "Your allies sent along a goblin, Gazlowe, to advise us against the Iron Horde. Thus far, he has proven a valuable asset.He has a looking glass set up that can see a great distance and, he claims, even hear.Use this looking glass and report back what you've seen. I will stick to my standard spyglass."
+    },
+    {
+        "Title": "First Test Race: 2 Laps",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, the red marker, the purple marker, then return to the Ironelf games camp.",
+        "Text": "Run through the arch... Get to the blue marker... Get to the green marker... Get to the red marker Then do it all again. That's right - 2 laps! Good luck!"
+    },
+    {
+        "Title": "Y'kish Joins the Party",
+        "Objective": "Invite Rooter to join your party.",
+        "Text": "The little guy sure does look happy. It's pretty clear he wants you to pet him. There is a spot right on the top of his head that isn't totally covered in rotten meat."
+    },
+    {
+        "Title": "Burning Sky",
+        "Objective": "Slay 12 Adherent Invaders in Aruuna and the Aruuna Crystal Mine.",
+        "Text": "It happened so fast. A white-hot flash of light ignited the nearby woods, followed by terrible winds that swept the flames across Aruuna. Moments later, arakkoa began descending through the smoke. I need to get Melani to the Pilgrim's Road. From there we can head for Anchorite's Sojourn and the protection of the vindicators. With the arakkoa roaming the area freely, I fear we'll be run down or worse: taken by the spreading wildfires."
+    },
+    {
+        "Title": "Iron Them Out",
+        "Objective": "Destroy 6 Iron Horde Siege Engines.",
+        "Text": "The orcs themselves are not the only threat. We may have weakened them considerably, but they still have siege weapons of significant power.Sabotage siege weapons you find with the explosives you collected from the beach."
+    },
+    {
+        "Title": "Born to Shred",
+        "Objective": "Kill 100 Iron Horde in Tuurem using the Iron Shredder.",
+        "Text": "The Iron Shredder is operational! It should be primed and ready for you to shred our enemies in Tuurem!Head inside and see what damage you can do. Can't say I'm not jealous."
+    },
+    {
+        "Title": "An Eye for a Spy",
+        "Objective": "Look through Gazlowe's Eye 'n' Ear.",
+        "Text": "Excellent, excellent! I'll make sense of these manual pages and will get the Iron Shredder operational immediately!While I do that, take a look through my Eye 'n' Ear. That's where you'll be headed soon!"
+    },
+    {
+        "Title": "Karmaan",
+        "Objective": "Speak with Karmaan.",
+        "Text": "You saw iron horde fighting the podlings!? That must be why the podlings are attacking here; they've been displaced! Unfortunately, they likely followed me and the other refugees from Tuurem to here. Light help me, I've doomed us all. We should go tell Karmaan about this. If the iron horde is nearby, podlings might be the least of our problems."
+    },
+    {
+        "Title": "Engineering Her Demise",
+        "Objective": "Defeat Ketya Shrediron at Tuurem.",
+        "Text": "-- THE MOTHER HAS BEEN DETECTED. WARNING! WARNING! --"
+    },
+    {
+        "Title": "In Short Supply",
+        "Objective": "Collect 6 Iron Horde Explosives.",
+        "Text": "The enemy has explosive devices stored on the beach below. We must recover them so they are not used against us.Reports indicate that crates of explosives are scattered along the shoreline.While you search, Durotan and I will carve deeper into Iron Horde territory."
+    },
+    {
+        "Title": "Pieces of Us",
+        "Objective": "Retrieve the Crystal-Shaper's Tools, Melani's Doll, and the Annals of Aruuna.",
+        "Text": "When the fires broke out, I took only my daughter's hand before we fled. It was the right decision, of course, but I do long for some of the things we left behind. I am an artificer, a shaper of crystals and gems. Without my tools I am just another refugee. Our town records are kept in a memory crystal in the main hall. With it, I can carry forward the knowledge and legacy of Aruuna. Also, my daughter is terrified - it would be a great comfort for her to hold her favorite doll again."
+    },
+    {
+        "Title": "The Battle for Shattrath",
+        "Objective": "Repel the Iron Horde from Shattrath.",
+        "Text": "To stop the Iron Horde, we must overcome prejudice and work together, if only for this purpose.Horde, Alliance, past, present... all meaningless in the face of this enemy.We will retake Shattrath together... or die trying."
+    },
+    {
+        "Title": "Vol. X Pages ?",
+        "Objective": "Find 20 Manual Pages at Archenon Siegeyard.",
+        "Text": "The manual for the shredder was wedged in there, but it's missing lots of pages. We need to find as many pages of that manual as possible and I might--MIGHT--be able to get this shredder operational.Based on the direction of the wind, I bet the pages flew toward Archenon Siegeyard."
+    },
+    {
+        "Title": "Too Many Irons in the Fire",
+        "Objective": "Kill 15 Iron Horde on Orunai Coast.",
+        "Text": "We must not head into battle prematurely. Before we go after Orgrim, we must first deal with his troops.If we are to succeed in our mission of wiping out the Iron Horde from Talador, we need to start on these shores."
+    },
+    {
+        "Title": "Demons Among Us - Horde",
+        "Objective": "Deliver Thamuun's Letter to Thalia at Teluuna Observatory.",
+        "Text": "If you are reading this, it means I have fallen in battle. As my last request, please deliver this letter to Thalia at Teluuna Observatory. Dearest Thalia, You have always been my best friend, ever since we were children growing up in Tuurem. I have always been too afraid to tell you my feelings, but I cannot leave this world without finally speaking the truth. Thalia, I love you with all my heart. I shall wait for you in the next world. I will for eternity for you. Love, Thamuun"
+    },
+    {
+        "Title": "Gazlowe's Solution",
+        "Objective": "Destroy the Thunderlord Cache, Blackrock Forge, and Munitions Landing.",
+        "Text": "I've identified some high value targets down in the forest below.When you get near one, you can deploy my solution.Deploy it and the objectives will be neutralized with great ceremony."
+    },
+    {
+        "Title": "Laying Dionor to Rest",
+        "Objective": "Watch Birchus's ritual.",
+        "Text": "You have given me a tremendous gift with this bloom. I can finally send Dionor back to the Overgrowth for good and end this nightmare. All that remains is the ritual... stay and behold something you will never see again in your lifetime..."
+    },
+    {
+        "Title": "Reagents from Rakthoth",
+        "Objective": "Find Rakthoth at Dionor's Demise in Gorgrond.",
+        "Text": "The destruction of our village will not be easy to come back from. Our best hunter, Rakthoth, \"finds\" reagents for our shaman. She has not been seen for some time and we need those more than ever. Go to her hunting grounds and see if she still lives."
+    },
+    {
+        "Title": "Taking the Death Bloom",
+        "Objective": "Take the Death Bloom from Smokemaster Snarl in Steamscar Rise.",
+        "Text": "You have helped me and now I will help you. The bloom you seek is within the nearby cave, being pawed over by the new leader of these saberon. Kill him and take the bloom back to the ancient below. I hope this will clear out those plants and I can get back to my hunting..."
+    },
+    {
+        "Title": "Sacking the Saberon Stronghold",
+        "Objective": "Breach the last saberon wall and deal with what's on the other side.",
+        "Text": "Destroy the barricade and take back stuff!"
+    },
+    {
+        "Title": "The Inkmasters of the Arboretum",
+        "Objective": "Speak with Inkmaster Wei at the Arboretum in the Jade Forest.",
+        "Text": "I have heard that the Inkmasters at the Arboretum are in need of aid from a scribe of great skill. You should speak with Inkmaster Wei, if you wish to help."
+    },
+    {
+        "Title": "Ambassador to the Ancient",
+        "Objective": "Talk to Birchus at Dionor's Demise in Gorgrond.",
+        "Text": "I have seen a tough looking \"tree\" in that growth. It cries and moans but does not act hostile. It may know how to get rid of these plants. Go and see if it does."
+    },
+    {
+        "Title": "Decommissioned Mission",
+        "Objective": "Find the Decommissioned Iron Shredder in the nearby cave and take it from Engineer Draxen.",
+        "Text": "Ketya Shrediron,Your new Iron Shredders are a menace to our own soldiers.Decommission the prototype and store it in the cave on Talador beach until you've worked out the kinks.I will send Engineer Draxen to work on it in the meantime.- Orgrim Doomhammer"
+    },
+    {
+        "Title": "That's No Podling",
+        "Objective": "Slay Bloodthrasher.",
+        "Text": ""
+    },
+    {
+        "Title": "Plant Pruning",
+        "Objective": "Kill 12 defenders at Dionor's Demise.",
+        "Text": "I have a hunting den not far from here where I gather my trophies as well as reagents for the Laughing Skull. Not long ago this giant plant monster charged in from the overgrowth and was killed by several of the giant rock monsters. Since it died smaller plant beasts have sprung up and made a mess of the place. They have also cut me off from my best source of reagents. Kill them, I will attempt to reach my den and salvage what I can..."
+    },
+    {
+        "Title": "The Sacking of the Saberon",
+        "Objective": "Find 8 Herb Bundles in saberon stashes at Steamscar Rise.",
+        "Text": "The stash mostly contains bits of old animal parts and other junk. Upon closer inspection there are remains of a bundle of herbs and plants. Rakthoth might be more willing to help if some of these herb bundles were found and gathered for her..."
+    },
+    {
+        "Title": "Shredder vs. Saberon",
+        "Objective": "Break the vine barrier using your shredder.",
+        "Text": "After the saberon stole from these plants, they were forced further up Steamscar Rise and barricaded themselves in. I could not find a way to get in but you have the solution. One path is blocked by a tangle of hard vines. I have heard you have a machine that could cut through that with ease. I would get on a shredder and take those vines down."
+    },
+    {
+        "Title": "Beatface vs. Boulder",
+        "Objective": "Break the boulder barrier using Beatface the gladiator.",
+        "Text": "After the saberon stole from these plants, they were forced further up Steamscar Rise and barricaded themselves in. I could not find a way to get in but you have the solution. One path is blocked by a boulder, but it looks weak. A strong warrior, such as an ogre, could break it. I think you know an ogre gladiator..."
+    },
+    {
+        "Title": "Steamscar \"Reagents\"",
+        "Objective": "Collect 10 saberon hearts from living saberon at Steamscar Rise.",
+        "Text": "Now we get to the heart of the matter, heh. Saberon have strong hearts, our shaman find many uses for them. I will search for the ancient's magic if you get me those hearts. Do we have a deal?"
+    },
+    {
+        "Title": "The Iron Missive",
+        "Objective": "Burn the Iron Horde Supplies and the Iron Horde Camp.",
+        "Text": ""
+    },
+    {
+        "Title": "Moving In",
+        "Objective": "Meet Durotan at Bladespire Citadel.",
+        "Text": "Gorr'thog is now dead. It is time now to secure our hold on Bladespire Citadel. Meet me below and we can begin strengthening our presence."
+    },
+    {
+        "Title": "Talbuk Roundup",
+        "Objective": "Rescue 4 Talbuk at Kuuros Farm.",
+        "Text": "My father, Karmaan, owns this farm, and our main livestock are talbuk. One of the podlings must have opened the gate to their pen and they all escaped! The little terrors could have slaughtered them in the cage, but they like to hunt their prey. I'm afraid that if I stay out here much longer, I'll be their next meal! Will you round up the talbuk and bring them here? I can't get them myself, and I can't let my dad find out about this!"
+    },
+    {
+        "Title": "Rooter the Ravenous",
+        "Objective": "Find food for Rooter at Rooter's Pass in Gorgrond.",
+        "Text": "The stray boar is digging through garbage left behind by the iron horde. He stops chewing and stares at you-then he burps. He smells terrible. It looks like he's chewing on a chunk of rotten meat. Maybe you can find something a bit healthier for him to snack on?"
+    },
+    {
+        "Title": "Insatiable Swarms",
+        "Objective": "Kill 20 Podlings at Kuuros Farm.",
+        "Text": "Something has spurred the podlings that live in the nearby forest to come here. They are scaring the talbuk, eating the crops, and slaughtering my people! I led refugees from Tuurem here in search of safety from the Iron Horde, and now we have to contend with these foul creatures! Please, you must help us! I need to attend to my wife's wounds and guide her to safety. Meet me inside the farm proper towards the back when their numbers have been culled back."
+    },
+    {
+        "Title": "To the Slaughter",
+        "Objective": "Kill 10 ogres in Bladespire Citadel.",
+        "Text": "This entrance to the fortress is clear again, thanks to your help. Inside is another story. Find your way inside and leave no ogre standing as you go."
+    },
+    {
+        "Title": "Northshire Dash Practice",
+        "Objective": "Run through the arch, hit the blue marker, then return to the Ironelf games camp.",
+        "Text": "Welcome to the Irongnome games! For this challenge: run through the arch, then get to the blue marker and return here as fast as you can. You have all the time you need."
+    },
+    {
+        "Title": "Chasing Shadows",
+        "Objective": "Speak to Rulkan at Exile's Rise.",
+        "Text": "Not all of the Shadowmoon orcs followed Ner'zhul's alliance with the Iron Horde. Among them, there is one orc whom I befriended many years ago. She may be able to tell us more about Ner'zhul's plans for this \"Dark Star.\" She can be found at Exile's Rise to the northeast. I will send word ahead so she expects your arrival."
+    },
+    {
+        "Title": "Forbidden Knowledge",
+        "Objective": "Recover 6 Shadow Tomes from Veil Shadar.",
+        "Text": "So, you are Iskar's hired hand? Well, I care not whether you are |5 or an overgrown moth, so long as you are willing to help. The Adherents of Rukhmar are closed-minded fools! They forbid the study of shadow magic, branding as heretics anyone who dares to seek answers in the dark. We kept many tomes of forbidden knowledge in Veil Shadar. Bring any you find to me, and I will reward you for keeping them from the flames."
+    },
+    {
+        "Title": "A Flare for the Dramatic",
+        "Objective": "Shoot Penny's Flare Gun while in Deadgrin.",
+        "Text": "I received a strange object with a note attached. Here, it seems to be written in your tongue, commander."
+    },
+    {
+        "Title": "What the Draenei Found",
+        "Objective": "Examine the Ancient Prism in the Aruuna Crystal Mine.",
+        "Text": "They came here for an artifact? The miners must have found something in our crystal mine to the north. By the Light, can you imagine how powerful that thing must be, to attract them all the way here from their spires? I suppose it is in their hands now... You'd have to be crazy to go looking for it..."
+    },
+    {
+        "Title": "Kura's Vengeance",
+        "Objective": "Slay Wing-Guard Kuuan in Veil Shadar.",
+        "Text": "I was a wing-guard myself, once upon a time. One afternoon, I was caught away from my post. I just wanted an hour to watch the festival... Kuuan was supposed to cover for me, but instead he sold me out to gain favor with our superiors. They plucked my eyes, broke my wings, and threw me off the spire. Yet I am the fortunate one, for if Iskar hadn't found me, I'd have died there. And now Kuuan shows his face in Veil Shadar on the same day that you show up willing to kill for coin. Fortunate, indeed."
+    },
+    {
+        "Title": "Pyrophobia",
+        "Objective": "Slay Sun-Sage Kairyx.",
+        "Text": "W- we have done n-n-nothing to provoke the arakkoa... w-why would they attack Aruuna? What do they want from us? I want to run, but I'm... too afraid. That leader of theirs will burn me to a crisp, I just know it! H-he's just inside the inn..."
+    },
+    {
+        "Title": "The Purge of Veil Shadar",
+        "Objective": "Help 8 Arakkoa Outcasts evacuate from Veil Shadar.",
+        "Text": "Not all arakkoa are alike.  It is no illusion. They did this to me. Before I was even given a name, I was given a place in society: at the bottom. We are many. We make our homes in the places this world has forgotten. Veil Shadar was such a place, but the Adherents have found it and started a purge. For morale. For fun. Help my people escape, and we'll be in your debt. When the sky burns, it pays to have allies in the shadows."
+    },
+    {
+        "Title": "A New Threat",
+        "Objective": "Speak with Crystal-Shaper Barum at the crossroads northwest of Aruuna.",
+        "Text": "Aruuna, a draenei mining settlement to the northeast, has been sacked. Strangely, it doesn't sound like the work of the Iron Horde. My scouts describe the attackers as \"giant fire-breathing birdmen.\" I suppose nothing in this place should surprise me anymore...  Refugees have been seen fleeing along this road. Help them if possible, and learn whatever you can about the attackers. if these \"birdmen\" are a threat, we need to know."
+    },
+    {
+        "Title": "Multiplayer Race",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, the red marker, the purple marker, then return to the Ironelf games camp.",
+        "Text": "Run through the arch... Get to the blue marker... Get to the green marker... Get to the red marker Get to the purple marker Return here... Then do it all again. That's right - 2 laps! Good luck!"
+    },
+    {
+        "Title": "Light's Rest",
+        "Objective": "Ride with Exarch Maladaar to Light's Rest in Talador.",
+        "Text": "This map you found seems to show the locations of the other portals. By the Light, they have it surrounded! We have a small staging area not far from the nearest portal. Let's go. NYI. Cheat this quest and go to the camp."
+    },
+    {
+        "Title": "Eye Candy",
+        "Objective": "Collect Skothwa's Eye.",
+        "Text": "You! Get in the fight or get out of our way. This is no ordinary goren attack. Look over there, a gronnling is sacking our grubhall. That hunchbacked gorebucket bit a chunk out of my lovely Marrow! Rip the eye out of its forehead and bring it to me. That should buy me enough time to get her clear of this goren hole."
+    },
+    {
+        "Title": "The Cost of Chaos",
+        "Objective": "Find Lorgosh in Bladespire Citadel",
+        "Text": "Durotan had a plan. There were many paths to victory, but his was the most wise. His would cost the least blood. His brother, Ga'nar, is one of our most revered warriors, but he is prone to give in to blood lust. As the first Frostwolf fell, his temper won over his discipline. He ordered the bulk of our forces headlong into the citadel. This is not the first time Durotan's brother has abandoned reason, but it may be the most costly. Find them, stranger. Do what you can to salvage our assault."
+    },
+    {
+        "Title": "Muddy Waters",
+        "Objective": "Find nutritious mud in the Spinebloom Spires to revive Jagahari.",
+        "Text": "Not feeling so strong... dehydrated...  Need nutrients for leaves... need revenge..."
+    },
+    {
+        "Title": "Goren, Goren, Gone!",
+        "Objective": "Slay 8 Acidtooth Devourers.",
+        "Text": "We... we left the goren alone for too long. They have grown bold and forgotten who we are. Kill them! Kill them all. Rip them apart until they scream. Remind them what happens to anyone who tries to attack a Laughing Skull village. Oh, and welcome to Gorgrond."
+    },
+    {
+        "Title": "Desperate Times",
+        "Objective": "Ride to the Tomb of Lights with Exarch Maladaar.",
+        "Text": "I have heard of the orcs you saw in the tomb before... this is not good news. If they seek the key to Auchindoun, we must stop them from obtaining the remaining key fragments. Nyami was right; the fragments are no longer safe where they lay. There's no time to waste. We will ride together to the Tomb of Lights and secure them ourselves."
+    },
+    {
+        "Title": "We Die Laughing!",
+        "Objective": "Collect 5 Laughing Skull Masks.",
+        "Text": "Are you here to help or hinder? This village is being eaten, and we must move quickly to salvage what we can. Gather the masks of our fallen Laughing Skull brothers and sisters and meet me on the western side of the village. I will need them if our clan is to rebuild."
+    },
+    {
+        "Title": "The Element of Demise",
+        "Objective": "Place Thrall's totem at the center of the bridge.",
+        "Text": "The Frostwolves are a fierce and noble clan, but distrustful of outsiders. We have arrived amidst their assault on a mighty ogre citadel. I will remain here to offer counsel to their chieftain, Durotan. You are a proven hero of Azeroth. Demonstrate your value to the Frostwolves. We need them as allies. Use my totem to thwart the ogre counterattack. This should serve to get their attention. The rest is up to you."
+    },
+    {
+        "Title": "Arkonite Crystals",
+        "Objective": "Gather 8 Arkonite Crystals at the Overload Mine in Talador.",
+        "Text": "Mage-Lord Bloodsworn and I recently completed the first of our new blood golems. Once we're in full production, we won't need to risk lives in the field!Unfortunately, they still need a core power crystal. We spotted a Draenei mine overrun with crystal-hungry Goren nearby. Do what you must to get enough crystals to power our golems!"
+    },
+    {
+        "Title": "Deeds Left Undone",
+        "Objective": "Collect barrels of Frostwolf Oil and deliver it to Gol'kosh in the supply room.",
+        "Text": "In his haste, Ga'nar advanced before this area was secured. He is a matchless warrior, mind you, but his tactics are sometimes costly. Gol'kosh and his troops were ordered to destroy enemy supplies, but ogres have stolen the oil he needs. Retrieve the oil and see that their mission is carried out, traveler. Then, if they still live, direct them to rejoin me at the citadel's entrance. I must see my wounded brothers to safety."
+    },
+    {
+        "Title": "Find D'kaan",
+        "Objective": "Find Rangari D'kaan at Tailthrasher Basin in Gorgrond.",
+        "Text": "D'kaan's nearby. He said something about unusual tracks. Hardly what we need to be focusing on at a time like this. We need to leave soon. Help him, would you?"
+    },
+    {
+        "Title": "The Laughing Skull",
+        "Objective": "Find a Laughing Skull clansman.",
+        "Text": "Ah, good. I need someone who is not of my clan to negotiate with the Laughing Skull. We could use their help navigating this land, but they are dangerous and unpredictable, much like Gorgrond itself. Follow this road and seek out someone willing to speak with you. Perhaps they will see you as something new and be willing to talk first and stab later."
+    },
+    {
+        "Title": "The Secrets of Gorgrond",
+        "Objective": "Seek Yrel at the Wildwood Wash in Gorgrond. Speak with your Garrison Gryphon Master to fly there.",
+        "Text": "Our victory today was costly. Too costly. There is no guarantee that we can turn another attack. We need to know what the Iron Horde is up to, and there is only one place we can go to find out. Gorgrond. It is a savage land that few ever return from. I mean to go there, I mean to find their stronghold at Blackrock, and I mean to learn how we can defeat these vile orcs. Will you join me, Commander?"
+    },
+    {
+        "Title": "Nightmare in the Tomb",
+        "Objective": "Investigate the ritual in the Tomb of Souls.",
+        "Text": "In the tomb... horrible... bodies everywhere... A dark ritual... please... you must stop it..."
+    },
+    {
+        "Title": "Nightmare in the Tomb",
+        "Objective": "Investigate the ritual in the Tomb of Souls.",
+        "Text": "Down there... horrible... bodies everywhere... Dark ritual... please... you must stop it..."
+    },
+    {
+        "Title": "Felblood",
+        "Objective": "Collect 6 Felblood Samples by killing Stormreaver Fearmongers in the Court of Lights in Talador.",
+        "Text": "Fascinating. The doomguard in the courtyard southwest of here have disguised themselves as orcs and do not die when defeated in battle. You see, they are powerful magical beings, and their essence manifests nearby as a blood creature that revives its body upon reaching it. I would like to study these essences without dealing with the demons myself. Bring me a few samples, would you?"
+    },
+    {
+        "Title": "Last Steps",
+        "Objective": "Climb the chain and kill Gorr'thog.",
+        "Text": "In a rage, Ga'nar ascended to fight Gorr'thog, the ogre king. He is alone, and the ramp to the throne room is now blocked. You've proven resourceful. Perhaps you could find another way up? I sustained wounds on my way here, but I will work to cut my way through and up the ramp so we may rejoin. Hurry traveler, ensure that the Frostwolf clan wins our assault on the citadel."
+    },
+    {
+        "Title": "Save Auchenai Caretakers",
+        "Objective": "Direct 6 Auchenai Caretakers to safety in the Court of Lights in Talador.",
+        "Text": "I was fortunate enough to be delivering a report to the Exarch when the demons attacked, but the rest of my brethren were out tending to the Court of Lights! We caretakers are not the fighters of our order. Go to the court northwest of here and help direct them to safety."
+    },
+    {
+        "Title": "Un-Safety First",
+        "Objective": "Disable 4 Safety Valves.",
+        "Text": "These plans were designed to be read by even the most unskilled of metallurgists. It has big symbols on specific pipes for what valves NOT to turn unless risking woeful amounts of destruction."
+    },
+    {
+        "Title": "These Colors Don't Run",
+        "Objective": "Use 8 Frostwolf Banners on Bladespire Ogre corpses.",
+        "Text": "Bladespire has been a plague on my people for many years. That ends today! Now to explain it to the ogres in a way they will understand. If you still wish to help us, place our banner in the corpses of our adversaries. Their courage will falter as they behold a field of Frostwolf trophies! This is our way. I will meet with you ahead when you have completed this deed."
+    },
+    {
+        "Title": "The Ritual",
+        "Objective": "Kill Amnennar the Coldbringer.",
+        "Text": "You are good to have come so quickly. I must ask you to put your lives in danger once more in order to save Kalimdor. Amnennar's apprentice, Death Speaker Blackthorn, hopes to return his master to the realm of the living! We must quickly make our way atop the Spiral of Thorns and defeat him before the ritual can be completed. We must strike together, only with our combined force can we hope to stop him!"
+    },
+    {
+        "Title": "Unexpected Assault",
+        "Objective": "Slay 1 Bonechewer Orcs and direct $2oa Auchenai to safety in the Court of Souls.",
+        "Text": "Thank the Light you're here. The Bonechewer orcs have invaded! We've dealt with the occasional raid before, but they've never attacked Auchindoun with such numbers before. We arrived as quickly as we could to respond to the threat, but the local guard had already fallen. We cannot afford to lose more men! Kill all of the Bonechewer you can and help consolidate our forces back to our defensive line. The Bonechewer must not be allowed to step foot in Auchindoun!"
+    },
+    {
+        "Title": "Blackthorn's Lieutenants",
+        "Objective": "Kill Aarux, Mordresh, and Mushlump.",
+        "Text": "Amnennar's reincarnation is imminent. In order to protect the ceremony Death Speaker Blackthorn has placed his most trusted lieutenants between us and him. Aarux, a plagued spider nests near his young, tended to by the Death's Head Aranomancers. Mordresh rallies Amnennar's forces upon the Bone Pile. Finally, Mushlump stands guarding the entrance to the Spiral of Thorns. Once you defeat these guardians I will join you and together we will confront Blackthorn."
+    },
+    {
+        "Title": "Unexpected Assault",
+        "Objective": "Slay 1 Bonechewer Orcs and direct $2oa Auchenai to safety in the Court of Souls.",
+        "Text": "My scouts have reported that the Bonechewer clan is attacking Auchindoun. The Auchenai guard are here, but I fear they won't be enough. I sense a dark presence nearby... we cannot chance leaving their defenses weak. Too much power lies within those hallowed halls. Slay the Bonechewer and direct any of the Auchenai injured back to their defensive line. I will direct my scouts throughout the area to try to ascertain the Bonechewers' motives."
+    },
+    {
+        "Title": "Return to the Pack",
+        "Objective": "Speak with Durotan at your garrison.",
+        "Text": "Part of me agrees with Karg - we COULD challenge the Iron Wolf right now. My fists clench at the mention of his name. My muscles scream for vengeance. But then, in my heart, I feel Asha. Calming me. Guiding me. I do not deserve her wisdom, but it is a gift I will not waste.  Durotan and the others will be gathering at your garrison about now. We should meet them."
+    },
+    {
+        "Title": "Multiplayer Race",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, the red marker, the purple marker, then return to the Ironelf games camp.",
+        "Text": "Run through the arch... Get to the blue marker... Get to the green marker... Get to the red marker Get to the purple marker Return here... Then do it all again. That's right - 2 laps! Good luck!"
+    },
+    {
+        "Title": "Northshire Sprint Practice",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, then return to the Ironelf games camp.",
+        "Text": "Welcome to the Irongnome games! For this challenge: run through the arch... Get to the blue marker... Get to the green marker... then return here. You have all the time you need for this."
+    },
+    {
+        "Title": "The Farseer",
+        "Objective": "Get to the Pool of Visions and kill Warleader Gargrak.",
+        "Text": "The Thunderlord warleader... , you have to stop him. He went to attack Drek'Thar at the Pool of Visions to the northwest!"
+    },
+    {
+        "Title": "Back to Bladespire Citadel",
+        "Objective": "Return to Durotan at Bladespire Citadel.",
+        "Text": "Durotan must be told of your vision. Pul Windcarver will offer you a flight back. The fate of the Frostwolf... of Draenor, depends upon you."
+    },
+    {
+        "Title": "Mulverick's Plight",
+        "Objective": "Get the key from Slavemaster Turgall and find Mulverick's Axes.",
+        "Text": "You were sent here to free me? It seems that makes us allies. Slavemaster Turgall within the Soostained Mines will certainly have the key to this cage. While you're in there, do you think you could see which of those spineless taskmasters took my axes?"
+    },
+    {
+        "Title": "The Slavemaster's Demise",
+        "Objective": "Speak to Guse at Bladespire Citadel.",
+        "Text": "Share word with the others of the Frostwolves you saved this day. They will be glad to know that some made it out of the mines alive."
+    },
+    {
+        "Title": "Rally the Artificers",
+        "Objective": "Convince Rommul to return to Velen near Karabor's western entrance.",
+        "Text": "I have several lieutenants out there on the battlefield, doing what they can to hold this temple together. I need all of them, but first and foremost, I need my artificers. The artificers are masters of technology and artifacts. If any one of my followers can understand the mechanics of those siege engines, it would be them. Rommul is their leader. Send him to me."
+    },
+    {
+        "Title": "The Fall of the Warlord",
+        "Objective": "Kill Warlord Bult.",
+        "Text": "You've managed to survive this long, stranger. All that remains to be done here is to fell the Warlord of the arena. This will be your first true test here. Bult would provide a challenge to even a battle-hardened Frostwolf. Place the heads you've collected on spikes in the Frostfire Arena. They are sure to enrage the warlord and lure him into battle. Come out of the arena victorious and it will show that Durotan's trust in you was not misplaced."
+    },
+    {
+        "Title": "Save Wolf Home",
+        "Objective": "Save Wor'gol from the Thunderlord clan.",
+        "Text": "Cowardly Thunderlords...During the battle for the citadel, runners informed me that the Iron Wolf is striking at our home. He'll find no easy footing there, Draka will make them pay tenfold for any of ours that they slay, but we must return quickly and chase the mongrels off.You and your forces have proven valuable allies of the Frostwolves. We'd welcome your aid in securing our Wor'gol.I'll see you on the battlefield if you choose to come."
+    },
+    {
+        "Title": "Pool of Visions",
+        "Objective": "Speak with Farseer Drek'Thar at the Pool of Visions to begin the ritual of vision.",
+        "Text": "A terrible storm gathers on the horizon. I have prepared a ritual. You must consult the pool to see what destiny holds for us all."
+    },
+    {
+        "Title": "The Iron Tide",
+        "Objective": "Slay Arnokk the Burner and 10 Iron Horde troops within Karabor.",
+        "Text": "The majority of Karabor's defensive troops are dealing with the main battle front, just west of here. We must not ignore our flanks while dealing with that assault. One of the enemy leaders, Arnokk, is directing the mayhem on this side of the temple. Take him out, along with as many of his orcish followers as you can stomach. Once you've finished, meet me in front of the temple."
+    },
+    {
+        "Title": "Thunderlord for a Day",
+        "Objective": "Build a Thunderlord Grapple.",
+        "Text": "Pieces of a Thunderlord chain lay on the ground. It is of a very simple design, but effective. With enough parts, even the most unskilled person could assemble a chain and grapple as effective as those used by the Thunderlord Grapplers."
+    },
+    {
+        "Title": "From Over the Walls",
+        "Objective": "Dislodge 6 Blackrock Grappling Hooks near Karabor's outer walls.",
+        "Text": "Karabor is falling. The Iron Horde will not stop this assault until every last one of us is dead and cold on the ground. I don't know about you, but I don't plan on letting that happen. Now, there must be something we can do to prevent them from scaling the walls..."
+    },
+    {
+        "Title": "Westfall Race Practice UNUSED",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, then return to the Ironelf games camp.",
+        "Text": "Run through the arch... Get to the blue marker... Get to the green marker... then return here. You have all the time you need."
+    },
+    {
+        "Title": "Gloomshade Game Hunter",
+        "Objective": "Collect ingredients in Gloomshade Grove.",
+        "Text": ""
+    },
+    {
+        "Title": "The Warlord's Guard",
+        "Objective": "Gather the Head of Thunk, the Head of Gullok, and the Head of Splorg.",
+        "Text": "I don't know what you are accustomed to, traveler, but these lands devour the weak. Perhaps Durotan wishes to rid himself of you. We shall see. You must kill the Warlord of the Circle of Blood. Do this and the ogres here will be defeated. But first, you must find him. I have located his bodyguards nearby. Slay them and bring me their heads. With them, we shall lure the Warlord into the open."
+    },
+    {
+        "Title": "Northwestern Medicine",
+        "Objective": "Gather 20 Redleaf Herbs from supply bags in Thunderfall.",
+        "Text": "There is an herb which grows in the crevices and crags of Frostfire Ridge, in places where the icy breath of the sky sips the boiling blood of the earth. Thunderlord climbers gather it often, for it has potent healing properties. Look for stores of these herbs in Thunderfall, and take what you can. Give them to me when next we meet, and they can be used to save lives in Stonefang."
+    },
+    {
+        "Title": "Eatercology",
+        "Objective": "Collect 10 Motes of Frostfire.",
+        "Text": "Drek'Thar thinks the portions of Exurotus consumed by the goren might be worthless. I am not about to step before the fury without at least trying to recover as many of these \"motes\" as possible. Slay any goren you find at Magnarok and see if you can extract the motes of Frostfire from them."
+    },
+    {
+        "Title": "Elwynn South Distance Practice",
+        "Objective": "Run through the arch, hit the red marker, then the purple marker, then return to the Ironelf games camp.",
+        "Text": "You want to get some practice in? For this challenge: run through the arch, then get to the red marker, the purple marker, and finally return here. You have all the time you need."
+    },
+    {
+        "Title": "Elwynn South Distance Trial: 30",
+        "Objective": "Run through the arch, hit the red marker, then the purple marker, then return to the Ironelf games camp.",
+        "Text": "For this challenge: run through the arch, then get to the red marker, the purple marker, and finally return here before the bell tolls 30 times."
+    },
+    {
+        "Title": "Elwynn Long Distance Trial: 25",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, then return to the Ironelf games camp.",
+        "Text": "For this challenge: run through the arch, then get to the blue marker, the green marker, and finally return here before the bell tolls 25 times."
+    },
+    {
+        "Title": "Ours is the Fury",
+        "Objective": "Speak with Warmaster Zog at your Garrison in Frostfire Ridge.",
+        "Text": "Drek'Thar will be fine, once he adjusts. The vision the elemental has bestowed upon him is powerful, and he is on the path of becoming this world's greatest shaman. You may wish to inform Warmaster Zog in your garrison of what has transpired here. He should be able to deploy some of your troops to the area to further secure the area."
+    },
+    {
+        "Title": "Blue/Yellow Sprint 15 INTERNAL REPEATABLE",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, then return to the Ironelf games camp.",
+        "Text": "Ready for a tougher challenge? This one has an extra leg: Run through the arch... Get to the blue marker... Get to the green marker... then return here before the bell tolls 15 times. Good luck!"
+    },
+    {
+        "Title": "Westfall Race 30",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, then return to the Ironelf games camp.",
+        "Text": "Run through the arch... Get to the blue marker... Get to the green marker... then return here before the bell tolls 15 times. Good luck!"
+    },
+    {
+        "Title": "Mopping Up",
+        "Objective": "Speak with Igrimar the Resolute at the Circle of Blood.",
+        "Text": "We've won the day, but our work here is far from finished. Frostwolves will scour the citadel and root out any survivors. To you, I offer the glory of cleansing the gladiator pits to the north. As we launched our attack, we dispatched one of our best to recon that area. If you still thirst for blood, join her there. There's surely some sport left."
+    },
+    {
+        "Title": "Elwynn Long Distance Practice",
+        "Objective": "Run through the arch, hit the blue marker, then the green marker, then return to the Irongnome games camp.",
+        "Text": "For this challenge: run through the arch, then get to the blue marker, the green marker, and finally return here. You have all the time you need."
+    },
+    {
+        "Title": "Northshire Dash 12",
+        "Objective": "Run through the arch, hit the blue marker, then return to the Ironelf games camp.",
+        "Text": "For this challenge: run through the arch, then get to the blue marker and return here as fast as you can. Get back before you hear the bell toll 12 times."
+    },
+    {
+        "Title": "A Matter of Life and Death",
+        "Objective": "Find Arekk, Diaani, and Zuulo in Bloodthorn Cave.",
+        "Text": "Stranger, please help me! My companions and I ventured here to seek the bounty on a monstrous wasp queen. After we set up camp down the hill, we fell asleep. We were attacked in the middle of the night by these horrid, pale... things! I don't know where my friends have gone, but I heard screams from further down the cavern. Please, find my companions. I can't leave here without them!"
+    },
+    {
+        "Title": "The Butcher of Bladespire",
+        "Objective": "Slay Dorogg the Ruthless.",
+        "Text": "After Ga'nar advanced into the fortress, the Bladespire unleashed a giant creature on our forces. I am still weak after using my magic, but at least I can help this orc in her recovery. Help take Dorogg down."
+    },
+    {
+        "Title": "South Sprint Practice",
+        "Objective": "Run through the arch, hit the red marker, purple marker, then return to the Ironelf games camp.",
+        "Text": "For this challenge, run through the arch, then get to the red marker, the purple marker, then return here. You have all the time you need."
+    },
+    {
+        "Title": "South Sprint 12",
+        "Objective": "Run through the arch, hit the red marker, then the purple, then return to the Ironelf games camp.",
+        "Text": "For this challenge, run through the arch, then get to the red marker, the purple marker, then return here before the bell tolls 12 times. Good luck!"
+    },
+    {
+        "Title": "Great Balls of Fire!",
+        "Objective": "Speak to Thrall in Bladespire Citadel.",
+        "Text": "Ga'nar led Ligra and the others to the second level of the fortress. Your friend, Thrall, also went to lend his skills. Follow the ramp on the south end of the ramparts outside to join them. Help them bring victory to the Frostwolf Clan!"
+    },
+    {
+        "Title": "Elwynn Run",
+        "Objective": "Hit the blue marker, then the green marker, then return to the Ironelf games camp.",
+        "Text": "Welcome to the Ironelf games! For this challenge: get to the blue marker, then the green marker, then return here. Score is based on your time, so get back as fast as you can!"
+    },
+    {
+        "Title": "Verick's Vindicators",
+        "Objective": "Speak to Commander Verick.",
+        "Text": "My forces are spread thin. The Iron Horde batters our defenses endlessly. If you really want to help, find my commanders on the front and help them hold the line."
+    },
+    {
+        "Title": "REUSE",
+        "Objective": "Find Ga'nar, Ligra, and Korga at the Ogre Fortress.",
+        "Text": "My brother Ga'nar led an assault into the citadel a few hours ago with some of my best lieutenants. They have yet to return. I need you to move ahead of the pack and find them. We need every warrior we can if we are to stand atop the Bladespire Lord Gorr'thog's skull by the day's end."
+    },
+    {
+        "Title": "General Problems",
+        "Objective": "Speak to Commander Dorgosh.",
+        "Text": "My forces are spread thin. The Iron Horde batters our defenses endlessly. If you really want to help, find my commanders on the front and help them hold the line."
+    },
+    {
+        "Title": "Torg's Trouble",
+        "Objective": "Speak to Commander Torg.",
+        "Text": "My forces are spread thin. The Iron Horde batters our defenses endlessly. If you really want to help, find my commanders on the front and help them hold the line."
+    },
+    {
+        "Title": "Speak to Thrall",
+        "Objective": "Speak with Thrall.",
+        "Text": "Thrall has a plan for you to take out the catapults preventing us from gaining ground on the battlefield. Speak with him."
+    },
+    {
+        "Title": "REUSE",
+        "Objective": "Find Ga'nar and 2 Frostwolf Lieutenants at the Ogre Fortress.",
+        "Text": "My brother Ga'nar led an assault into the citadel a few hours ago with some of my best lieutenants. They have yet to return. I need you to move ahead of the pack and find them. We need every warrior we can if we are to stand atop the ogre king's skull by the day's end."
+    },
+    {
+        "Title": "Courting Destiny",
+        "Objective": "Use the Vision of Time at the Temple of the White Tiger in Kun-Lai Summit.",
+        "Text": "The Vision of Time is nearly perfected, we now have much more control over the visions we seek. Your efforts have been instrumental in completing the artifact and restoring the strength of not only my flight, but also our allies in the Timewalkers. All of us are in your debt. Quite fortunately, I have located a sort of crux in time - an intersection of timeways - right here in Pandaria. Take the Vision of Time to the Temple of the White Tiger. There, in the cellars, turn the hourglass."
+    },
+    {
+        "Title": "Seeking Fate",
+        "Objective": "Use the Vision of Time in the Siege of Orgrimmar.",
+        "Text": "I have not been completely forthright with you, despite all that you have done to aid the Timewalkers. I cannot tell you everything, not yet, but know this - there is a traitor amongst us. Tell no one of your mission today, and take caution around any of my flight while you hold the Vision of Time. Quickly now, return to the Siege of Orgrimmar once more and use the hourglass. And be safe."
+    },
+    {
+        "Title": "One Final Turn",
+        "Objective": "Use the Vision of Time in the Caverns of Time in Tanaris.",
+        "Text": "I do not wish to ask this of you again, but I do not know who I can trust any longer. I have been using the Vision of Time to gather information, and in my searches, I believe I have found another crux in time. It is in the Caverns of Time itself. I did not want to believe it when the vision first came to me, but I cannot sit idly by and let this information pass. The Caverns of Time - you must go there, now, and use the Vision of Time. Move quickly!"
+    },
+    {
+        "Title": "Hidden Threads",
+        "Objective": "Use the Vision of Time in the Siege of Orgrimmar.",
+        "Text": "You have kept our mission a secret, and for that I thank you. Knowledge of the timeways, when in the wrong hands, can cause catastrophic devastation. My flight has little power to repair it, now. We must be careful. The hourglass grows in power. I believe it can now be used to see much further than before. I wish you to push it to its limits. Return to the Siege of Orgrimmar, and focus the hourglass on the most devastating timeway you can find."
+    },
+    {
+        "Title": "Refining The Vision",
+        "Objective": "Use the Vision of Time in the Siege of Orgrimmar.",
+        "Text": "I have finished grinding the stones, and have attuned the hourglass to a new series of timeways. Will you return to the Siege of Orgrimmar and turn the hourglass once more? Return quickly, I am most curious."
+    },
+    {
+        "Title": "Death of a Tyrant",
+        "Objective": "Defeat Gorr'thog in Bladespire Citadel.",
+        "Text": "It is good to see you survived the assault. The fortress is nearly ours! Ga'nar and Durotan cleared the way to Gorr'thog's chamber while you were freeing our wolves. Korga and I will make sure no ogres follow you up. , Gorr'thog is a mighty warrior. Hurry to them before it is too late!"
+    },
+    {
+        "Title": "Path of the Mistwalker",
+        "Objective": "Defeat 20 Elite creatures on the Timeless Isle.",
+        "Text": "You have heard the words of the celestials, but what did you learn on your path to the shrines? The wisdom of the pilgrimage is in its silence and simplicity. As you listen to the wind rustling in the trees, and note even the smallest butterfly, your mind is open to learning the deepest lessons the trials have to teach us. Perhaps you noticed the many great beasts that roam the island? Therein lies your trial. You have learned much from Pandaria, now let us put your knowledge to the test."
+    },
+    {
+        "Title": "Meet Us at Starfall Outpost",
+        "Objective": "Speak with Archmage Khadgar at Starfall Outpost.",
+        "Text": "The archmage has uncovered a potential Shadow Council presence in the valley. He asked me to let you know. As soon as you can, join us at Starfall Outpost. We're going to need your muscle to root them out, commander."
+    }
+]

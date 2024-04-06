@@ -4,7 +4,7 @@ This program was used to test the accuracy of the fine-tuned Zephyr model.
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 def chat_with_model():
-    local_model_directory = "./local_model"
+    local_model_directory = "./zephyr_model"
     model = AutoModelForCausalLM.from_pretrained(local_model_directory) #.to('cuda') #(model_name, device_map="auto", trust_remote_code=False,revision="main")
     tokenizer = AutoTokenizer.from_pretrained(local_model_directory, use_fast=True, src_lang="en")
     
