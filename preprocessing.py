@@ -18,7 +18,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 
 # Load the dataset
-df = pd.read_json('./cleaning_data/test.json')
+df = pd.read_json('./cleaning_data/output.json')
 
 # Data cleaning
 # Remove unnecessary fields
@@ -59,6 +59,34 @@ tfidf_matrix = tfidf_vectorizer.fit_transform(df['Text'].apply(' '.join))
 with open('preprocessed_data.pkl', 'wb') as f:
     pickle.dump((df, tfidf_matrix), f)
 
+# Save dataset to upload to Hugging Face
+# Import necessary libraries
+import pandas as pd
+import pickle
+from sklearn.model_selection import train_test_split
+import datasets
+
+# Load the preprocessed data
+with open('preprocessed_data.pkl', 'rb') as f:
+    df, _ = pickle.load(f)
+
+# Convert pandas DataFrame to dictionary format
+data_dict = df.to_dict(orient='list')
+
+# Create a dataset object
+my_dataset = datasets.Dataset.from_dict(data_dict)
+
+# Splitting the dataset into train and test sets
+train_size = int(len(my_dataset) * 0.8)
+train_dataset = my_dataset.select(range(train_size))
+test_dataset = my_dataset.select(range(train_size, len(my_dataset)))
+
+# Save the train and test datasets
+train_dataset.save_to_disk('./dataset/train_dataset')
+test_dataset.save_to_disk('./dataset/test_dataset')
+
+# # Upload the dataset to Hugging Face dataset repository
+# datasets.DatasetDict({'train': my_dataset}).save_to_disk('./dataset/')
 
 '''
 EXPLORATORY DATA ANALYSIS (EDA)

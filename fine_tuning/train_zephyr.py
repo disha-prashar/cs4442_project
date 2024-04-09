@@ -1,11 +1,10 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments
-from datasets import load_dataset
 from trl import SFTTrainer
 from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
-import torch, wandb
+import torch, wandb, datasets
 
-# Load Dataset
-train_dataset = load_dataset("dprashar/npc_dialogue_rpg_quests", split="train")
+# Load the dataset from the saved directory
+train_dataset = datasets.load_from_disk('./dataset/train_dataset/')
 
 # Load Base Model (Zephyr 7B) from local directory and adjust parameters
 local_model_directory = "C:/Users/NomadXR/Desktop/mistral_4470/zephyr_model"

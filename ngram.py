@@ -67,16 +67,16 @@ reference_ngrams, reference_counts = zip(*top_reference_ngrams)
 hypothesis_ngrams, hypothesis_counts = zip(*top_hypothesis_ngrams)
 
 # Plot
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(7, 12))
 
-plt.subplot(1, 2, 1)
+plt.subplot(2, 1, 1)
 plt.barh(range(len(reference_ngrams)), reference_counts, color='blue')
 plt.yticks(range(len(reference_ngrams)), reference_ngrams)
 plt.xlabel('Frequency')
 plt.title('Top {} Most Common Bigrams in Reference Sentences'.format(top_n))
 plt.gca().invert_yaxis()
 
-plt.subplot(1, 2, 2)
+plt.subplot(2, 1, 2)
 plt.barh(range(len(hypothesis_ngrams)), hypothesis_counts, color='orange')
 plt.yticks(range(len(hypothesis_ngrams)), hypothesis_ngrams)
 plt.xlabel('Frequency')
