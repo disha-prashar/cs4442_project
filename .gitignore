@@ -4,20 +4,6 @@
 # Ignore __pycache__ directories
 __pycache__/
 
-# Ignore .env
-.env
-
-# Ignore directories cloned from GitHub
-downloaded_model
-llama.cpp
-
 # Ignore previous training runs logs
 npc_model
 wandb
-
-# Ignore downloaded models
-mistral_model
-zephyr_model
-
-# Ignore gguf file
-zephyr-7b.gguf
