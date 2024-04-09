@@ -4,6 +4,8 @@ This project is based off of a capstone project that was built by four undergrad
 
 This repository contains code that was used to fine-tune the Zephyr 7B.
 
+## Installations
+
 ### Install dependencies for visualizations
 ```
 python -m pip install pandas matplotlib nltk wordcloud textblob seabor
@@ -27,7 +29,7 @@ The following steps were used to fine-tune Zephyr 7B
 
 **Please note: all of the fine-tuning was done on a computer at Middlesex College with powerful computational resources. Some of the code in this directory may not run on your local device.**
 
-### Directories/Files and Their Contents
+## Directories/Files and Their Contents
 analysis_results: files in this directory were used to perform analysis for the results section and the outputs are available here.
 
 archive_project: files in this directory were used for testing and experimentation and were not used for the final results.
