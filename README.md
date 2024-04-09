@@ -25,6 +25,8 @@ The following steps were used to fine-tune Zephyr 7B
 4. Use train_zephyr.py to fine-tune the downloaded Zephyr model on the training dataset.
 5. Test the model's accuracy using test_trained_model.py.
 
+**Please note: all of the fine-tuning was done on a computer at Middlesex College with powerful computational resources. Some of the code in this directory may not run on your local device.**
+
 ### Directories/Files and Their Contents
 analysis_results: files in this directory were used to perform analysis for the results section and the outputs are available here.
 
