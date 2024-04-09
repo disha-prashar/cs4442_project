@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 # Load the dataset from JSON file
-df = pd.read_json('./cleaning_data/output.json')
+df = pd.read_json('../cleaning_data/output.json')
 
 # Concatenate text from all entries for each field
 all_titles = ' '.join(df['Title'])
